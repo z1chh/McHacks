@@ -15,9 +15,29 @@
  */
 /* Always set the map height explicitly to define the size of the div
  * element that contains the map. */
+
+.info-header {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(17, 17, 74);
+  color: white;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+ .map-container {
+  height: 100%;
+  width: 100%;
+}
+
 #map {
-  height: 1000px;
-  width: 1000px;
+  height: 100vh;
+  width: 100vw;
 }
 
 /* Optional: Makes the sample page fill the window. */

@@ -10,6 +10,7 @@ const loader = new Loader(apiOptions);
 loader.load().then(() => {
   console.log('Maps JS API loaded');
   const map = displayMap();
+  console.log("Map displayed !");
   const markers = addMarkers(map);
   clusterMarkers(map, markers);
   addPanToMarker(map, markers);
@@ -128,12 +129,14 @@ function addMarkers(map) {
   }
   const markers = [];
   for (const location in locations) {
+    
     const markerOptions = {
       map: map,
       position: locations[location],
-      icon: './img/newMarker.png',
+      
     }
     const marker = new google.maps.Marker(markerOptions);
+    
     markers.push(marker);
   }
   return markers;
@@ -177,8 +180,18 @@ function drawCircle(map, location) {
 export default function App() {
     return (
     <>
-    <div>Hello World</div>
-    <div id="map"></div>
+    <div className="info-header">
+      <div>
+        <h1>Placeholder Name</h1>
+        <p>Select a marker to see their health violations</p>
+      </div>
+      <div>
+        <input type="button" value="New Report"/>
+      </div>
+    </div>
+    <div className="map-container">
+      <div id="map"></div>
+    </div>
     </>
     );
 }
