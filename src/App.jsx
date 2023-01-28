@@ -5,6 +5,36 @@ const apiOptions = {
   apiKey: "AIzaSyC1GMfeCxwUTTm_yWoSFEpSBPrpnIu2ZYo"
 }
 
+const places = [
+  {
+    business_id: 23,
+    name: "Sophie Sucree",
+    address: "123 Main St.",
+    owner: "John Smith",
+    category: "Bakery",
+    ville: "Outremont",
+    status: "Open",
+    location: {
+      lat: 45.51530637108047,
+      lng: -73.57575248002632
+    }
+  }
+]
+
+const violations = [
+  {
+    business_id: 23,
+    violation_fine: "500 CAD",
+    violation_date: "23/01/2005",
+  },
+  {
+    business_id: 23,
+    violation_fine: "600 CAD",
+    violation_date: "23/06/2002",
+  }
+  
+]
+
 const loader = new Loader(apiOptions);
 
 loader.load().then(() => {
@@ -123,17 +153,24 @@ function displayMap() {
 function addMarkers(map) {
   // Here we would import markers from csv file, each one would 
   // be a json object
-  const locations = {
-    sophieSucree: { lat: 45.51530637108047, lng: -73.57575248002632 },
-    
-  }
+
+  // const places = [
+  //   {
+  //     name: "Sophie Sucree",
+  //     desc: "Vegan bakery on St. Laurent",
+  //     location: {
+  //       lat: 45.51530637108047,
+  //       lng: -73.57575248002632
+  //     }
+  //   }
+  // ]
+
   const markers = [];
-  for (const location in locations) {
-    
+  for (const place in places) {
+    console.log(place);
     const markerOptions = {
       map: map,
-      position: locations[location],
-      
+      position: places[place].location,
     }
     const marker = new google.maps.Marker(markerOptions);
     
@@ -153,8 +190,26 @@ function addPanToMarker(map, markers) {
     marker.addListener('click', event => {
       // On Marker click, open modal window with json information
       // from object, pertaining to address, etc
+      var placeToOutput;
+      for(const place in places){
+        console.log(places[place].location.lat);
+        console.log(" and "+event.latLng);
+        if(places[place].location.lat === event.latLng.lat() && places[place].location.lng === event.latLng.lng()){
+          placeToOutput = places[place];
+          break;
+        }
+      }
+    
+      // Here add another string with all the violations information
+
+      let titleString = "<p>"+placeToOutput.name+"<br>"+placeToOutput.desc+"</p>";
+      let modalDiv = document.getElementsByClassName("modal")[0];
+      modalDiv.style.display = "flex";
+
+      modalDiv.innerHTML = titleString;
 
       const location = { lat: event.latLng.lat(), lng: event.latLng.lng() };
+
       map.panTo(location);
       if (circle) {
         circle.setMap(null);
@@ -176,21 +231,32 @@ function drawCircle(map, location) {
   const circle = new google.maps.Circle(circleOptions);
   return circle;
 }
-
+// Modal div should have an x button to close it, 
+// a section for the title description, and a section for the violations 
 export default function App() {
     return (
     <>
-    <div className="info-header">
-      <div>
-        <h1>Placeholder Name</h1>
-        <p>Select a marker to see their health violations</p>
+    <div className="content-container">
+      <div className="flex-center">
+        <div className="info-header">
+          <div>
+            <h1>Placeholder Name</h1>
+            <p>Select a marker to see their health violations</p>
+          </div>
+          <div>
+            <input type="button" value="New Report"/>
+          </div>
+        </div>
       </div>
-      <div>
-        <input type="button" value="New Report"/>
+      <div className="functionality-container">
+        <div className="map-container">
+          <div id="map"></div>
+        </div>
+        <div className="modal">
+          <div className="description"></div>
+          <div className="violations"></div>        
+        </div>
       </div>
-    </div>
-    <div className="map-container">
-      <div id="map"></div>
     </div>
     </>
     );

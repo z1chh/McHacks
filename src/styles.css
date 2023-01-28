@@ -16,6 +16,28 @@
 /* Always set the map height explicitly to define the size of the div
  * element that contains the map. */
 
+.content-container {
+  /* position: fixed; */
+  height: 100%;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
+
+.functionality-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.modal {
+  flex-grow: 1;
+  width: 25%;
+  display: none;
+  background-color: coral;
+}
+
 .info-header {
   width: 100%;
   height: 100px;
@@ -31,13 +53,14 @@
 }
 
  .map-container {
-  height: 100%;
-  width: 100%;
+  flex-grow: 3;
+  height: 80vh;
+  width: 75%;
 }
 
 #map {
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
 }
 
 /* Optional: Makes the sample page fill the window. */
