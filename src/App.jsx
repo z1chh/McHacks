@@ -1,11 +1,11 @@
 import { Loader } from '@googlemaps/js-api-loader';
 import MarkerClusterer from '@google/markerclustererplus';
 import jsonData1 from './assets/location_array.json';
-// import jsonData2 from './assets/test_viol_data.json';
+import jsonData2 from './assets/violations.json';
+import { useState } from "react";
 
 const allPlaces = JSON.parse(JSON.stringify(jsonData1));
-console.log(allPlaces.length);
-// const allViolations = JSON.parse(JSON.stringify(jsonData2));
+const allViolations = JSON.parse(JSON.stringify(jsonData2));
 
 const apiOptions = {
   apiKey: "AIzaSyC1GMfeCxwUTTm_yWoSFEpSBPrpnIu2ZYo"
@@ -43,10 +43,12 @@ const violations = [
 
 const loader = new Loader(apiOptions);
 
+var globalMap;
+
 loader.load().then(() => {
   console.log('Maps JS API loaded');
   const map = displayMap();
-  console.log("Map displayed !");
+  globalMap = map;
   const markers = addMarkers(map);
   clusterMarkers(map, markers);
   addPanToMarker(map, markers);
@@ -183,6 +185,10 @@ function clusterMarkers(map, markers) {
   const markerCluster = new MarkerClusterer(map, markers, clustererOptions);
 }
 
+function convertDate(date){
+  return date.slice(0,4)+"/"+date.slice(4,6)+"/"+date.slice(6,8);
+}
+
 function addPanToMarker(map, markers) {
   // let circle;
   markers.map(marker => {
@@ -190,12 +196,21 @@ function addPanToMarker(map, markers) {
       // On Marker click, open modal window with json information
       // from object, pertaining to address, etc
       var placeToOutput;
+
+      let placeViolations = new Array(); 
       
       for(const place in allPlaces){
 
         if(allPlaces[place].location[0].lat === event.latLng.lat() && allPlaces[place].location[0].lng === event.latLng.lng()){
           placeToOutput = allPlaces[place];
           break;
+        }
+      }
+
+      for(const violation in allViolations){
+        if(allViolations[violation].business_id === placeToOutput.business_id){
+          placeViolations.push(allViolations[violation]);
+          
         }
       }
     
@@ -233,21 +248,67 @@ function addPanToMarker(map, markers) {
         </tbody>
       </table>
       `;
-      // let titleString = "<p>"+placeToOutput.name+"<br>"+placeToOutput.address+"</p>";
-      let modalContentDiv = document.getElementsByClassName("modal-content")[0];
+
+      var violationString;
+      var totalViolationString = '';
+      var currViolation;
+
+      for(const confViolation in placeViolations){
+        currViolation = placeViolations[confViolation];
+        violationString = `
+        <div class="violation-card">
+          <div class="info-row">
+            <div class="info-col left">
+              <p class="label">Date</p>
+              <p class="value">`+convertDate(currViolation.date)+`</p>
+            </div>
+            <div class="info-col right">
+              <p class="label">Date Judgement</p>
+              <p class="value">`+convertDate(currViolation.date_jugement)+`</p>
+            </div>
+          </div>
+          <div class="info-row left">
+            <div class="info-col1">
+              <p class="label">Fine</p>
+              <p class="value">$`+currViolation.montant+`</p>
+            </div>
+            <div class="info-col right">
+              <p class="label">Status Date</p>
+              <p class="value">`+convertDate(currViolation.date_statut)+`</p>
+            </div>
+          </div>
+          <div class="info-row">
+            <div class="info-col left">
+              <p class="label">business_id</p>
+              <p class="value">`+currViolation.business_id+`</p>
+            </div>
+            <div class="info-col right">
+              <p class="label">case_id</p>
+              <p class="value">`+currViolation.id_poursuite+`</p>
+            </div>
+          </div>
+          <div class="info-row">
+            `+currViolation.description+`
+          </div>
+        </div>
+      `;
+
+        totalViolationString += violationString;
+      }
+
+      let descriptionDiv = document.getElementsByClassName("description")[0];
       let modalDiv = document.getElementsByClassName("modal")[0];
-      
+      let violationsDiv = document.getElementsByClassName("violations")[0];
+
       modalDiv.style.display = "block";
 
-      modalContentDiv.innerHTML = titleString;
+      descriptionDiv.innerHTML = titleString;
+      violationsDiv.innerHTML = totalViolationString;
 
       const location = { lat: event.latLng.lat(), lng: event.latLng.lng() };
 
       map.panTo(location);
-      // if (circle) {
-      //   circle.setMap(null);
-      // }
-      // circle = drawCircle(map, location);
+
     });
   });
 }
@@ -268,9 +329,16 @@ function drawCircle(map, location) {
 function closeModal(){
   document.getElementsByClassName("modal")[0].style.display = "none";
 }
-// Modal div should have an x button to close it
+
+function navigateToPlace(location){
+  document.getElementById("search-bar").value = "";
+  console.log("Navigating to "+location);
+  globalMap.panTo(location);
+}
+
 // a section for the title description, and a section for the violations 
 export default function App() {
+   const [query, setQuery] = useState("");
     return (
     <>
     <div className="content-container">
@@ -281,7 +349,26 @@ export default function App() {
             <p>Select a marker to see their health violations</p>
           </div>
           <div className='flex-row'>
-            <input type="text" className="searchBar" placeholder="Search"/>
+            
+              <input type="text" id="search-bar" className="searchBar" placeholder="Search" onChange={event => setQuery(event.target.value)} />
+              <div className="search-output">
+              {
+                jsonData1.filter(post => {
+                  if(query === "") {
+                    return "";
+                  }
+                else if (post.name.toLowerCase().includes(query.toLowerCase())){
+                  
+                  return post;
+                }
+              }).slice(0,4).map((post, index) => (
+                <div className="box" onClick={() => { navigateToPlace(post.location[0]); }} key={index}>
+                  <p>{post.name}</p>
+                  <p className="search-label">{post.address}</p>
+                </div>
+              ))
+              }
+            </div>
             <input type="button" className="submitReport" value="New Report"/>
           </div>
         </div>
@@ -300,7 +387,6 @@ export default function App() {
                 value="&#x2715;"
           />
           <div className="modal-content">
-            
             <div className="description"></div>
             <div className="violations"></div>
           </div>      
