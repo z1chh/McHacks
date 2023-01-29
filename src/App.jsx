@@ -189,23 +189,19 @@ function convertDate(date){
   return date.slice(0,4)+"/"+date.slice(4,6)+"/"+date.slice(6,8);
 }
 
-function addPanToMarker(map, markers) {
-  // let circle;
-  markers.map(marker => {
-    marker.addListener('click', event => {
-      // On Marker click, open modal window with json information
-      // from object, pertaining to address, etc
-      var placeToOutput;
+function openModal(pLocation){
+  var placeToOutput;
 
       let placeViolations = new Array(); 
-      
+      console.log(pLocation);
       for(const place in allPlaces){
 
-        if(allPlaces[place].location[0].lat === event.latLng.lat() && allPlaces[place].location[0].lng === event.latLng.lng()){
+        if(allPlaces[place].location[0].lat === pLocation.lat && allPlaces[place].location[0].lng === pLocation.lat){
           placeToOutput = allPlaces[place];
           break;
         }
       }
+      console.log(placeToOutput)
 
       for(const violation in allViolations){
         if(allViolations[violation].business_id === placeToOutput.business_id){
@@ -214,7 +210,6 @@ function addPanToMarker(map, markers) {
         }
       }
     
-      // Here add another string with all the violations information
       let titleString = `
       <table class="styled-table">
         <thead>
@@ -307,23 +302,23 @@ function addPanToMarker(map, markers) {
 
       const location = { lat: event.latLng.lat(), lng: event.latLng.lng() };
 
-      map.panTo(location);
+      globalMap.panTo(location);
+}
+
+function addPanToMarker(map, markers) {
+  
+  markers.map(marker => {
+    marker.addListener('click', event => {
+      // On Marker click, open modal window with json information
+      // from object, pertaining to address, etc
+      console.log(event.latLng.lat());
+      openModal({
+        lat: event.latLng.lat(),
+        lng: event.latLng.lng()
+      });
 
     });
   });
-}
-
-function drawCircle(map, location) {
-  const circleOptions = {
-    strokeColor: '#FF0000',
-    strokeOpacity: 0.8,
-    strokeWeight: 1,
-    map: map,
-    center: location,
-    radius: 300
-  }
-  const circle = new google.maps.Circle(circleOptions);
-  return circle;
 }
 
 function closeModal(){
@@ -334,6 +329,8 @@ function navigateToPlace(location){
   document.getElementById("search-bar").value = "";
   console.log("Navigating to "+location);
   globalMap.panTo(location);
+  openModal(location);
+
 }
 
 // a section for the title description, and a section for the violations 
@@ -358,11 +355,10 @@ export default function App() {
                     return "";
                   }
                 else if (post.name.toLowerCase().includes(query.toLowerCase())){
-                  
                   return post;
                 }
               }).slice(0,4).map((post, index) => (
-                <div className="box" onClick={() => { navigateToPlace(post.location[0]); }} key={index}>
+                <div className="box" onClick={() => { navigateToPlace(post.location[0]); setQuery("")}} key={index}>
                   <p>{post.name}</p>
                   <p className="search-label">{post.address}</p>
                 </div>
