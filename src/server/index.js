@@ -1,8 +1,9 @@
 const express = require('express');
 const cors = require('cors');
 const sgMail = require('@sendgrid/mail');
-
 const app = express();
+const config = require("./config");
+
 app.use(cors());
 
 app.get('/', (req, res) => {
@@ -12,17 +13,19 @@ app.get('/', (req, res) => {
 app.get('/send-email', (req, res) => {
     // Get variables from from query string 
 
-    const { name, text } = req.query;
+    const { name, desc, date, address } = req.query;
 
-    sgMail.setApiKey("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");
-
+    sgMail.setApiKey(config.APIKey);
+    
     const msg = {
-        to: "adam.hochschild2001@gmail.com",
+        to: "kimonorekt@gmail.com",
         from: "cleanbiteofficial@gmail.com",
-        subject: "HELLO WORLD",
-        text: text,
+        subject: "Health Code Violation Report",
+        text: "Business Name: "+name+"\nBusiness Address: "+address+"\nReport Date: "+date+"\nReport Description: "+desc,
+        html: "Business Name: "+name+"\n<br>Business Address: "+address+"\n<br>Report Date: "+date+"\n<br>Report Description: "+desc
     };
-    sgMail.send(msg).then((msg) => console.log(text));
+
+    sgMail.send(msg).then((res) => console.log("Response: "+res));
 
 })
 

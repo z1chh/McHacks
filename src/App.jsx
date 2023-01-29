@@ -345,25 +345,11 @@ function closeFormModal(){
 
 function submitForm(){
   let name = document.getElementById("form-name").value;
-  let text = document.getElementById("form-desc").value;
+  let desc = document.getElementById("form-desc").value;
+  let address = document.getElementById("form-address").value;
+  let date = document.getElementById("form-date").value;
 
-    var bigString = `
-      Business Name: `+document.getElementById("form-name").value;+`\n
-      Business Address: `+document.getElementById("form-address").value;+`\n
-      Report Date: `+document.getElementById("form-date").value;+`\n
-      Report Description: `+document.getElementById("form-desc").value+`
-    `;
-
-    fetch(`http://127.0.0.1:4000/send-email?text=${text}&name=${name}`).catch(err => console.log(err));
-
-    console.log(bigString); 
-
-    const element = document.createElement("a");
-    const file = new Blob([bigString], {type: 'text/plain'});
-    element.href = URL.createObjectURL(file);
-    element.download = "myFile.txt";
-    document.body.appendChild(element); // Required for this to work in FireFox
-    element.click();
+  fetch(`http://127.0.0.1:4000/send-email?name=${name}&desc=${desc}&date=${date}&address=${address}`).catch(err => console.log(err));
 
 }
 
