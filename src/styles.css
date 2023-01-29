@@ -15,6 +15,176 @@
  */
 /* Always set the map height explicitly to define the size of the div
  * element that contains the map. */
+body {
+  position: fixed;
+  /* overflow: visible; */
+  width: 100%;
+}
+
+.content-container {
+  position:static;
+  height: 100%;
+  width: 100%;
+
+}
+
+.search-output {
+  position: absolute;
+  top: 100px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  z-index: 1;
+}
+
+.box {
+  background: white;
+  color: black;
+}
+
+.box:hover {
+  background: rgb(200, 200, 200);
+  cursor:pointer;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
+
+.functionality-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.searchBar {
+  background-color: rgba(99, 99, 99, 0.25);
+  border: 1px solid transparent;
+  height: 3rem;
+  width: 17rem;
+  padding-left: 20px;
+  color: white;
+
+  z-index: 2;
+  font-size: x-large;
+  border-radius: 5px;
+}
+
+.submitReport {
+  border: transparent;
+  font-size: x-large;
+  height: 3rem;
+  width: 12rem;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background-color: rgb(188, 102, 253);
+  color: white;
+}
+
+.submitReport:hover {
+  background-color: rgb(117, 63, 157);
+  cursor: pointer;
+}
+
+.modal {
+  flex-grow: 1;
+  overflow-y: scroll;
+  color: white;
+  width: 25%;
+  height: 85vh;
+  display: none;
+  background-color: rgb(107, 84, 255);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+
+
+.styled-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  width: 100%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.styled-table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+}
+.styled-table th,
+.styled-table td {
+    padding: 3px 15px;
+}
+
+.styled-table td p{
+  overflow-wrap: break-word;
+}
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  color: black;
+  background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+  /* border-bottom: 2px solid #009879; */
+} 
+.styled-table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+
+.violation-card {
+  padding: 1rem;
+  color:rgb(117, 63, 157);
+  display: flex;
+  flex-direction: column;
+  
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 5px;
+  margin-bottom: 30px;
+}
+
+.info-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.left {
+  align-items: flex-start;
+}
+
+.right {
+  align-items: flex-end;
+}
+
+.info-col {
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+}
+
+.search-label {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.label {
+  font-family: 'Courier New', Courier, monospace;
+  margin-bottom: -10px;
+}
 
 .info-header {
   width: 100%;
@@ -31,13 +201,28 @@
 }
 
  .map-container {
-  height: 100%;
-  width: 100%;
+  flex-grow: 3;
+  height: 85vh;
+  width: 75%;
+}
+
+.close {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-weight: 800;
+  font-size: x-large;
+  float: right;
+}
+
+.close:hover {
+  color: #009879;
 }
 
 #map {
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
 }
 
 /* Optional: Makes the sample page fill the window. */
