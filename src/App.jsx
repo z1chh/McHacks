@@ -2,7 +2,7 @@ import { Loader } from '@googlemaps/js-api-loader';
 import MarkerClusterer from '@google/markerclustererplus';
 import jsonData1 from './assets/location_array.json';
 import jsonData2 from './assets/violations.json';
-import { useState } from "react";
+import React, { useState } from "react";
 
 const allPlaces = JSON.parse(JSON.stringify(jsonData1));
 const allViolations = JSON.parse(JSON.stringify(jsonData2));
@@ -325,6 +325,10 @@ function closeModal(){
   document.getElementsByClassName("modal")[0].style.display = "none";
 }
 
+function openFormModal(){
+  document.getElementsByClassName("hidden-modal")[0].style.display = "flex";
+}
+
 function navigateToPlace(location){
   document.getElementById("search-bar").value = "";
   console.log("Navigating to ");
@@ -334,11 +338,36 @@ function navigateToPlace(location){
 
 }
 
+function closeFormModal(){
+  document.getElementsByClassName("hidden-modal")[0].style.display = "none";
+}
+
 // a section for the title description, and a section for the violations 
 export default function App() {
-   const [query, setQuery] = useState("");
+  const [query, setQuery] = useState("");
+
+
     return (
     <>
+    <div className="hidden-modal">
+      <div className="hidden-form">
+        <input
+                type="button"
+                className="modal-close close"
+                data-dismiss="modal"
+                aria-label="Close"
+                onClick={closeFormModal}
+                value="&#x2715;"
+          />
+        <input class="form-input" id="form-name" type="text" placeholder='Business Name'/>
+        <input class="form-input" id="form-address" type="text" placeholder='Business Address'/>
+        <input class="form-input" id="form-date" type="text" placeholder='Incident Date'/>
+        <textarea class="form-input form-large" rows = "8" cols = "60" id="form-desc" type="text" placeholder='Incident Description'/>
+        <input id="form-submit" type="button" value="SUBMIT" />
+      </div>
+      
+    </div>
+  
     <div className="content-container">
       <div className="flex-center">
         <div className="info-header">
@@ -366,7 +395,8 @@ export default function App() {
               ))
               }
             </div>
-            <input type="button" className="submitReport" value="New Report"/>
+            
+            <input type="button" className="submitReport" onClick={openFormModal} value="New Report"/>
           </div>
         </div>
       </div>
