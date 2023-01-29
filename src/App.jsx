@@ -344,7 +344,21 @@ function closeFormModal(){
 }
 
 function submitForm(){
-  
+    var bigString = `
+      Business Name: `+document.getElementById("form-name").value;+`\n
+      Business Address: `+document.getElementById("form-address").value;+`\n
+      Report Date: `+document.getElementById("form-date").value;+`\n
+      Report Description: `+document.getElementById("form-desc").value+`
+    `;
+
+    console.log(bigString); 
+
+    const element = document.createElement("a");
+    const file = new Blob([bigString], {type: 'text/plain'});
+    element.href = URL.createObjectURL(file);
+    element.download = "myFile.txt";
+    document.body.appendChild(element); // Required for this to work in FireFox
+    element.click();
 
 }
 
