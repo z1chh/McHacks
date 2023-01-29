@@ -4,6 +4,7 @@ import jsonData1 from './assets/location_array.json';
 import jsonData2 from './assets/violations.json';
 import React, { useState } from "react";
 
+
 const allPlaces = JSON.parse(JSON.stringify(jsonData1));
 const allViolations = JSON.parse(JSON.stringify(jsonData2));
 
@@ -300,7 +301,7 @@ function openModal(pLocation){
       descriptionDiv.innerHTML = titleString;
       violationsDiv.innerHTML = totalViolationString;
 
-      const location = { lat: event.latLng.lat(), lng: event.latLng.lng() };
+      const location = { lat: pLocation.lat, lng: pLocation.lng };
 
       globalMap.panTo(location);
 }
@@ -342,6 +343,11 @@ function closeFormModal(){
   document.getElementsByClassName("hidden-modal")[0].style.display = "none";
 }
 
+function submitForm(){
+  
+
+}
+
 // a section for the title description, and a section for the violations 
 export default function App() {
   const [query, setQuery] = useState("");
@@ -351,19 +357,23 @@ export default function App() {
     <>
     <div className="hidden-modal">
       <div className="hidden-form">
-        <input
-                type="button"
-                className="modal-close close"
-                data-dismiss="modal"
-                aria-label="Close"
-                onClick={closeFormModal}
-                value="&#x2715;"
-          />
-        <input class="form-input" id="form-name" type="text" placeholder='Business Name'/>
-        <input class="form-input" id="form-address" type="text" placeholder='Business Address'/>
-        <input class="form-input" id="form-date" type="text" placeholder='Incident Date'/>
-        <textarea class="form-input form-large" rows = "8" cols = "60" id="form-desc" type="text" placeholder='Incident Description'/>
-        <input id="form-submit" type="button" value="SUBMIT" />
+        <div className="close-container">
+          <div></div>
+          <input
+                  type="button"
+                  className="modal-close close"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                  onClick={closeFormModal}
+                  value="&#x2715;"
+            />
+        </div>
+        <p>Submit a new report, all fields are required</p>
+        <input className="form-input" id="form-name" type="text" placeholder='Business Name'/>
+        <input className="form-input" id="form-address" type="text" placeholder='Business Address'/>
+        <input className="form-input" id="form-date" type="text" placeholder='Incident Date'/>
+        <textarea className="form-input form-large" rows = "8" cols = "60" id="form-desc" type="text" placeholder='Incident Description'/>
+        <input id="form-submit" onClick={submitForm} type="button" value="SUBMIT" />
       </div>
       
     </div>
@@ -371,8 +381,8 @@ export default function App() {
     <div className="content-container">
       <div className="flex-center">
         <div className="info-header">
-          <div>
-            <h1>Placeholder Name</h1>
+          <div className="title-container">
+            <p className="title-text">CleanBite &#129532; &#127837;</p>
             <p>Select a marker to see their health violations</p>
           </div>
           <div className='flex-row'>

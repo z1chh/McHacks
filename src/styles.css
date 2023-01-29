@@ -41,13 +41,15 @@ body {
   z-index: 4;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content:flex-start;
   align-items: center;
   gap: 1rem;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 
   z-index: 3;
-  height: 50%;
-  width: 30vh;
+  height: 60%;
+  width: 30vw;
 
   border: 1px solid transparent;
   border-radius: 30px;
@@ -56,18 +58,18 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  padding: 100px;
+  padding: 50px 50px;
   background-color:rgb(64, 70, 149);
 }
 
 .form-large {
-  height: 100px;
+  height: 200px;
 
 }
 
 #form-submit {
   width: 100px;
-  height: 30px;
+  min-height: 30px;
   border: 1px solid transparent;
   border-radius: 5px;
   background-color: rgb(13, 0, 75);
@@ -81,10 +83,8 @@ body {
 
 .form-input {
   font-family: 'Courier New', Courier, monospace;
-
   padding: 20px 20px;
   vertical-align: middle;
-  /* text-align: left; */
   width: 90%;
   border: 1px solid grey;
   border-radius: 5px;
@@ -94,7 +94,18 @@ body {
   position:static;
   height: 100%;
   width: 100%;
+}
 
+.title-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  flex-wrap: nowrap;
+}
+
+.title-text {
+  font-size: 50px;
+  margin: 0;
 }
 
 .search-output {
@@ -257,7 +268,7 @@ body {
 
 .info-header {
   width: 100%;
-  height: 100px;
+  min-height: 100px;
   background-color: rgb(17, 17, 74);
   color: white;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -275,6 +286,17 @@ body {
   width: 75%;
 }
 
+.close-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.modal-close {
+  
+}
+
 .close {
   cursor: pointer;
   background-color: transparent;
@@ -283,6 +305,7 @@ body {
   font-weight: 800;
   font-size: x-large;
   float: right;
+  
 }
 
 .close:hover {
