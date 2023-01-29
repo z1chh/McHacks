@@ -196,7 +196,7 @@ function openModal(pLocation){
       console.log(pLocation);
       for(const place in allPlaces){
 
-        if(allPlaces[place].location[0].lat === pLocation.lat && allPlaces[place].location[0].lng === pLocation.lat){
+        if(allPlaces[place].location[0].lat === pLocation.lat && allPlaces[place].location[0].lng === pLocation.lng){
           placeToOutput = allPlaces[place];
           break;
         }
@@ -327,7 +327,8 @@ function closeModal(){
 
 function navigateToPlace(location){
   document.getElementById("search-bar").value = "";
-  console.log("Navigating to "+location);
+  console.log("Navigating to ");
+  console.log(location);
   globalMap.panTo(location);
   openModal(location);
 
@@ -358,7 +359,7 @@ export default function App() {
                   return post;
                 }
               }).slice(0,4).map((post, index) => (
-                <div className="box" onClick={() => { navigateToPlace(post.location[0]); setQuery("")}} key={index}>
+                <div className="box" onClick={() => { setQuery(""); navigateToPlace(post.location[0]);}} key={index}>
                   <p>{post.name}</p>
                   <p className="search-label">{post.address}</p>
                 </div>
