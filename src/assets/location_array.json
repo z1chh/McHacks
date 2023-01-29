@@ -1,0 +1,3782 @@
+[
+    {
+        "business_id": "52059",
+        "name": "SOLLY THE BAKER",
+        "address": "2368 Ch. Lucerne, Mont-Royal, Québec",
+        "owner": "3099-5773 QUEBEC INC.",
+        "category": "Épicerie avec préparation",
+        "ville": "Mont-Royal",
+        "status": "Fermé",
+        "location": [
+            {
+                "lat": 45.5073765,
+                "lng": -73.66185449999999
+            }
+        ]
+    },
+    {
+        "business_id": "15447",
+        "name": "BAGEL MONT-ROYAL",
+        "address": "709 Ch. Lucerne, Mont-Royal, Québec",
+        "owner": "4318366 CANADA INC.",
+        "category": "Casse-croûte",
+        "ville": "Mont-Royal",
+        "status": "Fermé changement d'exploitant",
+        "location": [
+            {
+                "lat": 45.5028948,
+                "lng": -73.64486939999999
+            }
+        ]
+    },
+    {
+        "business_id": "115422",
+        "name": "DISTRICT BAGEL - LUCERNE",
+        "address": "709 Ch. Lucerne, Mont-Royal, Québec",
+        "owner": "SANDWICH SALADES ET PLUS INC.",
+        "category": "Restaurant service rapide",
+        "ville": "Mont-Royal",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.5028948,
+                "lng": -73.64486939999999
+            }
+        ]
+    },
+    {
+        "business_id": "108698",
+        "name": "BEN ET FLORENTINE",
+        "address": "2328 Ch. Lucerne, Mont-Royal, Québec",
+        "owner": "9219-7607 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "Mont-Royal",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.5072006,
+                "lng": -73.6617392
+            }
+        ]
+    },
+    {
+        "business_id": "72187",
+        "name": "RESTAURANT PLACE THIMENS",
+        "address": "2146 Rue Lucien-Thimens, St-Laurent, Québec",
+        "owner": "9105-7109 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "St-Laurent",
+        "status": "Fermé",
+        "location": [
+            {
+                "lat": 45.50915759999999,
+                "lng": -73.69464119999999
+            }
+        ]
+    },
+    {
+        "business_id": "105367",
+        "name": "PETITE ECOLE DES GRANDES DECOUVERTES",
+        "address": "2140 Rue Lucien-Thimens, St-Laurent, Québec",
+        "owner": "PETITE ECOLE DE GRANDES DECOUVERTES INC.",
+        "category": "Garderie",
+        "ville": "St-Laurent",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.5092885,
+                "lng": -73.6947958
+            }
+        ]
+    },
+    {
+        "business_id": "109804",
+        "name": "BOULANGERIE ET TRAITEUR APPAS",
+        "address": "1487 Rue MacDonald, St-Laurent, Québec",
+        "owner": "9308-0554 QUEBEC INC.",
+        "category": "Boulangerie",
+        "ville": "St-Laurent",
+        "status": "Fermé changement d'exploitant",
+        "location": [
+            {
+                "lat": 45.5140079,
+                "lng": -73.68178929999999
+            }
+        ]
+    },
+    {
+        "business_id": "115725",
+        "name": "CUISINE EPICEE",
+        "address": "1487 Rue MacDonald, St-Laurent, Québec",
+        "owner": "9359-6443 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "St-Laurent",
+        "status": "Fermé",
+        "location": [
+            {
+                "lat": 45.5140079,
+                "lng": -73.68178929999999
+            }
+        ]
+    },
+    {
+        "business_id": "120418",
+        "name": "BOULANGERIE ET TRAITEUR APPAS",
+        "address": "1487 Rue MacDonald, St-Laurent, Québec",
+        "owner": "9386-5970 QUEBEC INC.",
+        "category": "Casse-croûte",
+        "ville": "St-Laurent",
+        "status": "Fermé changement d'exploitant",
+        "location": [
+            {
+                "lat": 45.5140079,
+                "lng": -73.68178929999999
+            }
+        ]
+    },
+    {
+        "business_id": "108332",
+        "name": "SUSHI SHOP",
+        "address": "2245 Boul. Marcel-Laurin, St-Laurent, Québec",
+        "owner": "9287-2530 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "St-Laurent",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.52013119999999,
+                "lng": -73.7031066
+            }
+        ]
+    },
+    {
+        "business_id": "6162",
+        "name": "JAPON SUSHI BAR",
+        "address": "1320 Boul. Marcel-Laurin, St-Laurent, Québec",
+        "owner": "9213-4162 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "St-Laurent",
+        "status": "Fermé",
+        "location": [
+            {
+                "lat": 45.5126561,
+                "lng": -73.692771
+            }
+        ]
+    },
+    {
+        "business_id": "115229",
+        "name": "PREMIERE FONDUE",
+        "address": "1320 Boul. Marcel-Laurin, St-Laurent, Québec",
+        "owner": "9345-5210 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "St-Laurent",
+        "status": "Fermé changement d'exploitant",
+        "location": [
+            {
+                "lat": 45.5126561,
+                "lng": -73.692771
+            }
+        ]
+    },
+    {
+        "business_id": "118798",
+        "name": "RESTAURANT LIAN TAI",
+        "address": "1993 Boul. Marcel-Laurin, St-Laurent, Québec",
+        "owner": "9373-9167 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "St-Laurent",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.5186624,
+                "lng": -73.7002282
+            }
+        ]
+    },
+    {
+        "business_id": "18144",
+        "name": "POISSONNERIE CASABLANCA (1999)",
+        "address": "340 Boul. Marcel-Laurin, St-Laurent, Québec",
+        "owner": "GEORGES ANGELAKIS",
+        "category": "Poissonnerie",
+        "ville": "St-Laurent",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.5033722,
+                "lng": -73.67662709999999
+            }
+        ]
+    },
+    {
+        "business_id": "72599",
+        "name": "LES ALIMENTS ESPOSITO",
+        "address": "340 Boul. Marcel-Laurin, St-Laurent, Québec",
+        "owner": "LES ALIMENTS ESPOSITO (LAURENTIEN) LTEE",
+        "category": "Boucherie-épicerie",
+        "ville": "St-Laurent",
+        "status": "Fermé",
+        "location": [
+            {
+                "lat": 45.5033722,
+                "lng": -73.67662709999999
+            }
+        ]
+    },
+    {
+        "business_id": "8052",
+        "name": "BAGEL ST-VIATEUR",
+        "address": "340 Boul. Marcel-Laurin, St-Laurent, Québec",
+        "owner": "MAISON DU BAGEL INC.",
+        "category": "Boulangerie",
+        "ville": "St-Laurent",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.5033722,
+                "lng": -73.67662709999999
+            }
+        ]
+    },
+    {
+        "business_id": "105545",
+        "name": "CHEZ DANIEL (BOULANGERIE KASHER)",
+        "address": "340 Boul. Marcel-Laurin, St-Laurent, Québec",
+        "owner": "9275-2419 QUEBEC INC.",
+        "category": "Épicerie avec préparation",
+        "ville": "St-Laurent",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.5033722,
+                "lng": -73.67662709999999
+            }
+        ]
+    },
+    {
+        "business_id": "114862",
+        "name": "RESTO BAR NICKELS ST-LAURENT",
+        "address": "1991 Boul. Marcel-Laurin, St-Laurent, Québec",
+        "owner": "9345-5723 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "St-Laurent",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.5185378,
+                "lng": -73.700043
+            }
+        ]
+    },
+    {
+        "business_id": "14771",
+        "name": "RESTO BAR NICKELS ST-LAURENT",
+        "address": "1991 Boul. Marcel-Laurin, St-Laurent, Québec",
+        "owner": "9187-6599 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "St-Laurent",
+        "status": "Fermé changement d'exploitant",
+        "location": [
+            {
+                "lat": 45.5185378,
+                "lng": -73.700043
+            }
+        ]
+    },
+    {
+        "business_id": "72610",
+        "name": "ARAMARK (BOMBARDIER #2297)",
+        "address": "1800 Boul. Marcel-Laurin, St-Laurent, Québec",
+        "owner": "ARAMARK QUEBEC INC.",
+        "category": "Cafétéria",
+        "ville": "St-Laurent",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.5148954,
+                "lng": -73.6996204
+            }
+        ]
+    },
+    {
+        "business_id": "116931",
+        "name": "PROVI-SOIR #5048",
+        "address": "1110 Boul. Marcel-Laurin, St-Laurent, Québec",
+        "owner": "9328-7803 QUEBEC INC.",
+        "category": "Épicerie avec préparation",
+        "ville": "St-Laurent",
+        "status": "Fermé",
+        "location": [
+            {
+                "lat": 45.5097896,
+                "lng": -73.6889921
+            }
+        ]
+    },
+    {
+        "business_id": "15604",
+        "name": "SOLEIL DE SAIGON",
+        "address": "1993 Boul. Marcel-Laurin, Local 7, St-Laurent, Québec",
+        "owner": "NGUYEN HONG SON",
+        "category": "Restaurant service rapide",
+        "ville": "St-Laurent",
+        "status": "Fermé",
+        "location": [
+            {
+                "lat": 45.5186624,
+                "lng": -73.7002282
+            }
+        ]
+    },
+    {
+        "business_id": "13148",
+        "name": "TAI EXPRESS VILLA MADINA",
+        "address": "1995 Boul. Marcel-Laurin, St-Laurent, Québec",
+        "owner": "9206-3650 QUEBEC INC.",
+        "category": "Restaurant service rapide",
+        "ville": "St-Laurent",
+        "status": "Fermé changement d'exploitant",
+        "location": [
+            {
+                "lat": 45.5188902,
+                "lng": -73.7002104
+            }
+        ]
+    },
+    {
+        "business_id": "6021",
+        "name": "RESTAURANT OTTAVIO VSL",
+        "address": "1134 Boul. Marcel-Laurin, St-Laurent, Québec",
+        "owner": "9198-6661 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "St-Laurent",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.5101316,
+                "lng": -73.6898367
+            }
+        ]
+    },
+    {
+        "business_id": "111947",
+        "name": "THAI EXPRESS ET VILLA MADINA",
+        "address": "1995 Boul. Marcel-Laurin, St-Laurent, Québec",
+        "owner": "9206-3650 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "St-Laurent",
+        "status": "Fermé changement d'exploitant",
+        "location": [
+            {
+                "lat": 45.5188902,
+                "lng": -73.7002104
+            }
+        ]
+    },
+    {
+        "business_id": "113806",
+        "name": "PHARMAPRIX",
+        "address": "2000 Boul. Marcel-Laurin, St-Laurent, Québec",
+        "owner": "9178-5709 QUEBEC INC.",
+        "category": "Épicerie",
+        "ville": "St-Laurent",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.5185027,
+                "lng": -73.70260019999999
+            }
+        ]
+    },
+    {
+        "business_id": "121781",
+        "name": "MARCHE TUNIS",
+        "address": "2277A Boul. Marcel-Laurin, St-Laurent, Québec",
+        "owner": "MARCHE A TUNIS INC.",
+        "category": "Épicerie avec préparation",
+        "ville": "St-Laurent",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.5204534,
+                "lng": -73.7027888
+            }
+        ]
+    },
+    {
+        "business_id": "2667",
+        "name": "TUTTI FRUTTI DEJEUNERS  (SAINT-LAURENT)",
+        "address": "2135 Boul. Marcel-Laurin, St-Laurent, Québec",
+        "owner": "9184-9018 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "St-Laurent",
+        "status": "Fermé",
+        "location": [
+            {
+                "lat": 45.5199333,
+                "lng": -73.70194
+            }
+        ]
+    },
+    {
+        "business_id": "109279",
+        "name": "LYLAC RESTO CAFE",
+        "address": "1625 Boul. Marcel-Laurin, St-Laurent, Québec",
+        "owner": "9291-5321 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "St-Laurent",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.5163045,
+                "lng": -73.696116
+            }
+        ]
+    },
+    {
+        "business_id": "86018",
+        "name": "RESTAURANT LA ROULOTTE",
+        "address": "10 Rue Paiement, Ste-Geneviève, Québec",
+        "owner": "2845-8354 QUEBEC INC.",
+        "category": "Restaurant service rapide",
+        "ville": "Ste-Geneviève",
+        "status": "Fermé changement d'exploitant",
+        "location": [
+            {
+                "lat": 45.4828313,
+                "lng": -73.86700909999999
+            }
+        ]
+    },
+    {
+        "business_id": "115684",
+        "name": "RESTAURANT LA ROULOTTE",
+        "address": "10 Rue Paiement, Ste-Geneviève, Québec",
+        "owner": "9356-6677 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "Ste-Geneviève",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.4828313,
+                "lng": -73.86700909999999
+            }
+        ]
+    },
+    {
+        "business_id": "5013",
+        "name": "RESTAURANT VLAPP'S",
+        "address": "3905 Rue Monselet, Montréal-Nord, Québec",
+        "owner": "RESTAURANT VLAPP'S",
+        "category": "Restaurant",
+        "ville": "Montréal-Nord",
+        "status": "Fermé changement d'exploitant",
+        "location": [
+            {
+                "lat": 45.588925,
+                "lng": -73.6393878
+            }
+        ]
+    },
+    {
+        "business_id": "122624",
+        "name": "MISTER PATE",
+        "address": "3905 Rue Monselet, Montréal-Nord, Québec",
+        "owner": "CASSE CROUTE MISTER PATE INC.",
+        "category": "Restaurant",
+        "ville": "Montréal-Nord",
+        "status": "Fermé",
+        "location": [
+            {
+                "lat": 45.588925,
+                "lng": -73.6393878
+            }
+        ]
+    },
+    {
+        "business_id": "115395",
+        "name": "CENTRE DE SERVICE EXPRESS (CASSE-CROÛTE)",
+        "address": "3905 Rue Monselet, Montréal-Nord, Québec",
+        "owner": "9313-8162 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "Montréal-Nord",
+        "status": "Fermé changement d'exploitant",
+        "location": [
+            {
+                "lat": 45.588925,
+                "lng": -73.6393878
+            }
+        ]
+    },
+    {
+        "business_id": "106870",
+        "name": "TRAITEUR G&G",
+        "address": "3293 Rue Monselet, Montréal-Nord, Québec",
+        "owner": "GRECO GENNARO",
+        "category": "Restaurant",
+        "ville": "Montréal-Nord",
+        "status": "Fermé",
+        "location": [
+            {
+                "lat": 45.5842106,
+                "lng": -73.6485079
+            }
+        ]
+    },
+    {
+        "business_id": "6879",
+        "name": "DEPANNEUR CHEZ NENETTE",
+        "address": "3648 Rue Monselet, Montréal-Nord, Québec",
+        "owner": "YAN GU",
+        "category": "Épicerie avec préparation",
+        "ville": "Montréal-Nord",
+        "status": "Fermé changement d'exploitant",
+        "location": [
+            {
+                "lat": 45.5867319,
+                "lng": -73.6429076
+            }
+        ]
+    },
+    {
+        "business_id": "108573",
+        "name": "SEMOLINA TRAITEUR ET CAFETERIA URBAINE",
+        "address": "8500 Boul. Parkway, Anjou, Québec",
+        "owner": "9185-7250 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "Anjou",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.6136281,
+                "lng": -73.5642225
+            }
+        ]
+    },
+    {
+        "business_id": "15526",
+        "name": "PIZZA NEW YORK",
+        "address": "6352 Rue Pascal, Montréal-Nord, Québec",
+        "owner": "9180-0086 QUEBEC INC.",
+        "category": "Restaurant service rapide",
+        "ville": "Montréal-Nord",
+        "status": "Fermé changement d'exploitant",
+        "location": [
+            {
+                "lat": 45.6175879,
+                "lng": -73.6201593
+            }
+        ]
+    },
+    {
+        "business_id": "119793",
+        "name": "PIZZA POULET NEW YORK",
+        "address": "6352 Rue Pascal, Montréal-Nord, Québec",
+        "owner": "9391-4703 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "Montréal-Nord",
+        "status": "Fermé changement d'exploitant",
+        "location": [
+            {
+                "lat": 45.6175879,
+                "lng": -73.6201593
+            }
+        ]
+    },
+    {
+        "business_id": "116968",
+        "name": "PIZZA POULET NEW YORK",
+        "address": "6352 Rue Pascal, Montréal-Nord, Québec",
+        "owner": "9355-1760 QUEBEC INC.",
+        "category": "Restaurant service rapide",
+        "ville": "Montréal-Nord",
+        "status": "Fermé changement d'exploitant",
+        "location": [
+            {
+                "lat": 45.6175879,
+                "lng": -73.6201593
+            }
+        ]
+    },
+    {
+        "business_id": "102655",
+        "name": "VARIETE DEPANNEUR UNIK",
+        "address": "6342 Rue Pascal, Montréal-Nord, Québec",
+        "owner": "FAKIRI ABDELLAH",
+        "category": "Épicerie avec préparation",
+        "ville": "Montréal-Nord",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.6175525,
+                "lng": -73.6202216
+            }
+        ]
+    },
+    {
+        "business_id": "104674",
+        "name": "BOULANGERIE L'EPI DORE",
+        "address": "8224 Rue Pascal-Gagnon, St-Léonard, Québec",
+        "owner": "9269-5378 QUEBEC INC.",
+        "category": "Charcuterie",
+        "ville": "St-Léonard",
+        "status": "Fermé changement d'exploitant",
+        "location": [
+            {
+                "lat": 45.59943579999999,
+                "lng": -73.5816797
+            }
+        ]
+    },
+    {
+        "business_id": "72636",
+        "name": "SUPER MARCHE RIZWAN",
+        "address": "2170 Rue Patricia, St-Laurent, Québec",
+        "owner": "3295044 CANADA INC.",
+        "category": "Boucherie-épicerie",
+        "ville": "St-Laurent",
+        "status": "Fermé changement d'exploitant",
+        "location": [
+            {
+                "lat": 45.5218993,
+                "lng": -73.7006816
+            }
+        ]
+    },
+    {
+        "business_id": "117190",
+        "name": "A.D.N FOODS",
+        "address": "875 Rue McCaffrey, St-Laurent, Québec",
+        "owner": "6776639 CANADA INC.",
+        "category": "Entrepôt de produits mixtes",
+        "ville": "St-Laurent",
+        "status": "Sous inspection fédérale",
+        "location": [
+            {
+                "lat": 45.486728,
+                "lng": -73.71466989999999
+            }
+        ]
+    },
+    {
+        "business_id": "103214",
+        "name": "PATISSERIE MERSONS",
+        "address": "6203 Boul. Léger, Montréal-Nord, Québec",
+        "owner": "9185-4166 QUEBEC INC.",
+        "category": "Casse-croûte",
+        "ville": "Montréal-Nord",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.6215687,
+                "lng": -73.6254835
+            }
+        ]
+    },
+    {
+        "business_id": "48271",
+        "name": "RESTAURANT DRAGONNAIRE",
+        "address": "5563 Boul. Léger, Montréal-Nord, Québec",
+        "owner": "ANDY YEE",
+        "category": "Restaurant",
+        "ville": "Montréal-Nord",
+        "status": "Fermé",
+        "location": [
+            {
+                "lat": 45.6124385,
+                "lng": -73.6320961
+            }
+        ]
+    },
+    {
+        "business_id": "112656",
+        "name": "MARCHE DIAZ",
+        "address": "5852 Boul. Léger, Montréal-Nord, Québec",
+        "owner": "MARCHE DIAZ INC.",
+        "category": "Épicerie avec préparation",
+        "ville": "Montréal-Nord",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.6167688,
+                "lng": -73.62869909999999
+            }
+        ]
+    },
+    {
+        "business_id": "48763",
+        "name": "CHARCUTERIE NOEL",
+        "address": "5733 Boul. Léger, Montréal-Nord, Québec",
+        "owner": "CHARCUTERIE NOEL INC.",
+        "category": "Boucherie-épicerie",
+        "ville": "Montréal-Nord",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.6155988,
+                "lng": -73.6305806
+            }
+        ]
+    },
+    {
+        "business_id": "48650",
+        "name": "RESTAURANT LA MER JAUNE",
+        "address": "5832 Boul. Léger, Montréal-Nord, Québec",
+        "owner": "9130-4360 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "Montréal-Nord",
+        "status": "Fermé changement d'exploitant",
+        "location": [
+            {
+                "lat": 45.6159852,
+                "lng": -73.6290106
+            }
+        ]
+    },
+    {
+        "business_id": "109600",
+        "name": "RESTAURANT LA MER JAUNE",
+        "address": "5832 Boul. Léger, Montréal-Nord, Québec",
+        "owner": "9310-4511 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "Montréal-Nord",
+        "status": "Fermé",
+        "location": [
+            {
+                "lat": 45.6159852,
+                "lng": -73.6290106
+            }
+        ]
+    },
+    {
+        "business_id": "5341",
+        "name": "RESTAURANT SUN HENG",
+        "address": "6349 Boul. Léger, Montréal-Nord, Québec",
+        "owner": "9189-5037 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "Montréal-Nord",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.6227655,
+                "lng": -73.623893
+            }
+        ]
+    },
+    {
+        "business_id": "103832",
+        "name": "CATIC CANADA",
+        "address": "6293 Boul. Léger, Montréal-Nord, Québec",
+        "owner": "9251-7549 QUEBEC INC.",
+        "category": "Épicerie avec préparation",
+        "ville": "Montréal-Nord",
+        "status": "Fermé",
+        "location": [
+            {
+                "lat": 45.6222205,
+                "lng": -73.6246208
+            }
+        ]
+    },
+    {
+        "business_id": "115932",
+        "name": "PIZZERIA DIVAS",
+        "address": "6295 Boul. Léger, Montréal-Nord, Québec",
+        "owner": "HICRAN TEMEL",
+        "category": "Restaurant",
+        "ville": "Montréal-Nord",
+        "status": "Fermé",
+        "location": [
+            {
+                "lat": 45.6222212,
+                "lng": -73.6246197
+            }
+        ]
+    },
+    {
+        "business_id": "100921",
+        "name": "LES ALIMENTS BON JOUR INC.",
+        "address": "2150 Rue Léger, LaSalle, Québec",
+        "owner": "LES ALIMENTS BON JOUR INC.",
+        "category": "Épicerie avec préparation",
+        "ville": "LaSalle",
+        "status": "Fermé changement d'exploitant",
+        "location": [
+            {
+                "lat": 45.4399639,
+                "lng": -73.6177636
+            }
+        ]
+    },
+    {
+        "business_id": "115632",
+        "name": "RESTAURANT LE BEAUJOLAIS",
+        "address": "1231 Mtée de Liesse, St-Laurent, Québec",
+        "owner": "9356-7238 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "St-Laurent",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.4870934,
+                "lng": -73.72216159999999
+            }
+        ]
+    },
+    {
+        "business_id": "107441",
+        "name": "RESTAURANT LE BEAUJOLAIS",
+        "address": "1231 Mtée de Liesse, St-Laurent, Québec",
+        "owner": "9273-9739 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "St-Laurent",
+        "status": "Fermé changement d'exploitant",
+        "location": [
+            {
+                "lat": 45.4870934,
+                "lng": -73.72216159999999
+            }
+        ]
+    },
+    {
+        "business_id": "56006",
+        "name": "PROVISIONS CALDWELL",
+        "address": "7025 Ch. Kildare, Côte Saint-Luc, Québec",
+        "owner": "LES PROVISIONS CALDWELL INC.",
+        "category": "Épicerie avec préparation",
+        "ville": "Côte Saint-Luc",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.470066,
+                "lng": -73.6656765
+            }
+        ]
+    },
+    {
+        "business_id": "100167",
+        "name": "LA BELLE PROVINCE L'AUTHENTIQUE",
+        "address": "9374 Boul. Lacordaire, St-Léonard, Québec",
+        "owner": "9221-0798 QUEBEC INC.",
+        "category": "Restaurant service rapide",
+        "ville": "St-Léonard",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.5981552,
+                "lng": -73.6116473
+            }
+        ]
+    },
+    {
+        "business_id": "15245",
+        "name": "SCORES ROTISSERIE ET COTES LEVEES",
+        "address": "9305 Boul. Lacordaire, St-Léonard, Québec",
+        "owner": "GROUPE SKIROS INC.",
+        "category": "Restaurant",
+        "ville": "St-Léonard",
+        "status": "Fermé changement d'exploitant",
+        "location": [
+            {
+                "lat": 45.5981434,
+                "lng": -73.6103196
+            }
+        ]
+    },
+    {
+        "business_id": "108574",
+        "name": "BISTRO IL CENTRO DA CARLO",
+        "address": "8370 Boul. Lacordaire, St-Léonard, Québec",
+        "owner": "7940033 CANADA INC.",
+        "category": "Restaurant",
+        "ville": "St-Léonard",
+        "status": "Fermé changement d'exploitant",
+        "location": [
+            {
+                "lat": 45.5856521,
+                "lng": -73.5968065
+            }
+        ]
+    },
+    {
+        "business_id": "105161",
+        "name": "VILLE LASALLE CARIBBEAN",
+        "address": "408 Av. Lafleur, LaSalle, Québec",
+        "owner": "LAMARRE JASON",
+        "category": "Restaurant",
+        "ville": "LaSalle",
+        "status": "Fermé changement d'exploitant",
+        "location": [
+            {
+                "lat": 45.4326348,
+                "lng": -73.6482424
+            }
+        ]
+    },
+    {
+        "business_id": "7950",
+        "name": "WOK SUPREME",
+        "address": "432 Av. Lafleur, LaSalle, Québec",
+        "owner": "9167-5124 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "LaSalle",
+        "status": "Fermé",
+        "location": [
+            {
+                "lat": 45.4330085,
+                "lng": -73.64802170000002
+            }
+        ]
+    },
+    {
+        "business_id": "103262",
+        "name": "BOUCHERIE AL KHAIR",
+        "address": "428 Av. Lafleur, LaSalle, Québec",
+        "owner": "BOUCHERIE AL KHAIR INC.",
+        "category": "Boucherie",
+        "ville": "LaSalle",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.432939,
+                "lng": -73.6480625
+            }
+        ]
+    },
+    {
+        "business_id": "109625",
+        "name": "VOVA",
+        "address": "3055 Boul. LaSalle, Verdun, Québec",
+        "owner": "9144-1329 QUEBEC INC.",
+        "category": "Pâtisserie",
+        "ville": "Verdun",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.4740109,
+                "lng": -73.5704251
+            }
+        ]
+    },
+    {
+        "business_id": "2601",
+        "name": "RESTAURANT CRESCENDO",
+        "address": "5150 Boul. LaSalle, Verdun, Québec",
+        "owner": "3994007 CANADA INC.",
+        "category": "Restaurant",
+        "ville": "Verdun",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.45485009999999,
+                "lng": -73.56385949999999
+            }
+        ]
+    },
+    {
+        "business_id": "112567",
+        "name": "CENTRE D'HEBERGEMENT MANOIR -DE-VERDUN",
+        "address": "5500 Boul. LaSalle, Verdun, Québec",
+        "owner": "CIUSSS CENTRE-SUD-DE-L'ILE-DE-MONTREAL",
+        "category": "Résidence de personnes âgées",
+        "ville": "Verdun",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.4523077,
+                "lng": -73.56616389999999
+            }
+        ]
+    },
+    {
+        "business_id": "107760",
+        "name": "DEPANNEUR SUPER LASALLE",
+        "address": "3760 Boul. LaSalle, Verdun, Québec",
+        "owner": "9289-6745 QUEBEC INC.",
+        "category": "Épicerie avec préparation",
+        "ville": "Verdun",
+        "status": "Fermé changement d'exploitant",
+        "location": [
+            {
+                "lat": 45.46639709999999,
+                "lng": -73.56573039999999
+            }
+        ]
+    },
+    {
+        "business_id": "112565",
+        "name": "HOPITAL DE VERDUN ( & CAFÉTÉRIA)",
+        "address": "4000 Boul. LaSalle, Verdun, Québec",
+        "owner": "CIUSSS CENTRE-SUD-DE-L'ILE-DE-MONTREAL",
+        "category": "Hôpital",
+        "ville": "Verdun",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.46407689999999,
+                "lng": -73.5642252
+            }
+        ]
+    },
+    {
+        "business_id": "62116",
+        "name": "LASALLE DRIVE-IN",
+        "address": "8760 Boul. LaSalle, LaSalle, Québec",
+        "owner": "2854-7065 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "LaSalle",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.4150464,
+                "lng": -73.62153459999999
+            }
+        ]
+    },
+    {
+        "business_id": "2034",
+        "name": "RESTAURANT CHEZ DANG",
+        "address": "2996 Boul. Laurentien, St-Laurent, Québec",
+        "owner": "9003-5593 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "St-Laurent",
+        "status": "Fermé changement d'exploitant",
+        "location": [
+            {
+                "lat": 45.5275978,
+                "lng": -73.7193999
+            }
+        ]
+    },
+    {
+        "business_id": "102025",
+        "name": "MARCHE SHENG TANG",
+        "address": "1425 Rue du Fort, Montréal, Québec",
+        "owner": "9231-8757 QUEBEC INC.",
+        "category": "Épicerie avec préparation",
+        "ville": "Montréal",
+        "status": "Fermé changement d'exploitant",
+        "location": [
+            {
+                "lat": 45.4923136,
+                "lng": -73.5819747
+            }
+        ]
+    },
+    {
+        "business_id": "16029",
+        "name": "SUPERMARCHE P.A.",
+        "address": "1420 Rue du Fort, Montréal, Québec",
+        "owner": "3855155 CANADA INC.",
+        "category": "Boucherie-épicerie",
+        "ville": "Montréal",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.49203139999999,
+                "lng": -73.5823801
+            }
+        ]
+    },
+    {
+        "business_id": "108035",
+        "name": "DEPANNEUR FORTUNE 2013",
+        "address": "558 Rue Fortune, Montréal, Québec",
+        "owner": "DEPANNEUR FORTUNE 2013 INC.",
+        "category": "Épicerie",
+        "ville": "Montréal",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.4777162,
+                "lng": -73.55760459999999
+            }
+        ]
+    },
+    {
+        "business_id": "102398",
+        "name": "BOUCHERIE AUX DEUX GAULOIS LTEE",
+        "address": "2021 Rue Frontenac, Montréal, Québec",
+        "owner": "BOUCHERIE AUX DEUX GAULOIS LTEE",
+        "category": "Local de préparation",
+        "ville": "Montréal",
+        "status": "Fermé",
+        "location": [
+            {
+                "lat": 45.5333688,
+                "lng": -73.5530745
+            }
+        ]
+    },
+    {
+        "business_id": "7836",
+        "name": "PIZZA MADONA",
+        "address": "2002 Rue Frontenac, Montréal, Québec",
+        "owner": "9191-3418 QUEBEC INC.",
+        "category": "Restaurant service rapide",
+        "ville": "Montréal",
+        "status": "Fermé",
+        "location": [
+            {
+                "lat": 45.53302069999999,
+                "lng": -73.5529888
+            }
+        ]
+    },
+    {
+        "business_id": "102316",
+        "name": "IKAROS PIZZERIA",
+        "address": "2054 Rue Fullum, Montréal, Québec",
+        "owner": "9246-2712 QUEBEC INC.",
+        "category": "Restaurant service rapide",
+        "ville": "Montréal",
+        "status": "Fermé",
+        "location": [
+            {
+                "lat": 45.5308186,
+                "lng": -73.5561551
+            }
+        ]
+    },
+    {
+        "business_id": "116809",
+        "name": "LE PETIT BISTRO",
+        "address": "1550 Rue Fullum, Montréal, Québec",
+        "owner": "9367-3101 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "Montréal",
+        "status": "Fermé changement d'exploitant",
+        "location": [
+            {
+                "lat": 45.5277986,
+                "lng": -73.54972579999999
+            }
+        ]
+    },
+    {
+        "business_id": "13660",
+        "name": "MARCHE B.K.",
+        "address": "1755 Rue d'Oxford, St-Laurent, Québec",
+        "owner": "9183-4853 QUEBEC INC.",
+        "category": "Boucherie-épicerie",
+        "ville": "St-Laurent",
+        "status": "Fermé changement d'exploitant",
+        "location": [
+            {
+                "lat": 45.521475,
+                "lng": -73.7024607
+            }
+        ]
+    },
+    {
+        "business_id": "112994",
+        "name": "MARCHÉ B.A.",
+        "address": "1755 Rue d'Oxford, St-Laurent, Québec",
+        "owner": "9337-2357 QUEBEC INC.",
+        "category": "Boucherie-épicerie",
+        "ville": "St-Laurent",
+        "status": "Fermé changement d'exploitant",
+        "location": [
+            {
+                "lat": 45.521475,
+                "lng": -73.7024607
+            }
+        ]
+    },
+    {
+        "business_id": "100566",
+        "name": "MARCHE A TUNIS",
+        "address": "1700 Rue d'Oxford, St-Laurent, Québec",
+        "owner": "MARCHE A TUNIS INC.",
+        "category": "Épicerie avec préparation",
+        "ville": "St-Laurent",
+        "status": "Fermé",
+        "location": [
+            {
+                "lat": 45.5216111,
+                "lng": -73.7017292
+            }
+        ]
+    },
+    {
+        "business_id": "112298",
+        "name": "RESTAURANT TANDOOR PLUS",
+        "address": "1720 Rue d'Oxford, St-Laurent, Québec",
+        "owner": "9332-6767 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "St-Laurent",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.5213889,
+                "lng": -73.7019444
+            }
+        ]
+    },
+    {
+        "business_id": "103529",
+        "name": "RESTAURANT LA PORTE ORIENTALE",
+        "address": "990 Herron Rd, Dorval, Québec",
+        "owner": "9250-7086 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "Dorval",
+        "status": "Fermé",
+        "location": [
+            {
+                "lat": 45.4474712,
+                "lng": -73.7479913
+            }
+        ]
+    },
+    {
+        "business_id": "15676",
+        "name": "RESTAURANT DAGWOODS",
+        "address": "930 Herron Rd, Dorval, Québec",
+        "owner": "9094-6732 QUEBEC INC.",
+        "category": "Restaurant service rapide",
+        "ville": "Dorval",
+        "status": "Fermé",
+        "location": [
+            {
+                "lat": 45.4469143,
+                "lng": -73.74337659999999
+            }
+        ]
+    },
+    {
+        "business_id": "2327",
+        "name": "BOULANGERIE DU SOLEIL D.D.O.",
+        "address": "1113 Rue Hyman, Dollard-des-Ormeaux, Québec",
+        "owner": "9133-7915 QUEBEC INC.",
+        "category": "Boulangerie",
+        "ville": "Dollard-des-Ormeaux",
+        "status": "Fermé",
+        "location": [
+            {
+                "lat": 45.4979711,
+                "lng": -73.7839443
+            }
+        ]
+    },
+    {
+        "business_id": "113248",
+        "name": "GOLDEN",
+        "address": "1113 Rue Hyman, Dollard-des-Ormeaux, Québec",
+        "owner": "9261-9857 QUEBEC INC.",
+        "category": "Restaurant mets pour emporter",
+        "ville": "Dollard-des-Ormeaux",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.4979711,
+                "lng": -73.7839443
+            }
+        ]
+    },
+    {
+        "business_id": "103063",
+        "name": "BAR HYMUS",
+        "address": "177 Boul. Hymus, Pointe-Claire, Québec",
+        "owner": "9227-3762 QUEBEC INC.",
+        "category": "Brasserie",
+        "ville": "Pointe-Claire",
+        "status": "Fermé",
+        "location": [
+            {
+                "lat": 45.46209289999999,
+                "lng": -73.8171046
+            }
+        ]
+    },
+    {
+        "business_id": "80032",
+        "name": "RESTAURANT SAHIB INC.",
+        "address": "225 Boul. Hymus, Pointe-Claire, Québec",
+        "owner": "RESTAURANT SAHIB INC.",
+        "category": "Restaurant",
+        "ville": "Pointe-Claire",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.459279,
+                "lng": -73.82361449999999
+            }
+        ]
+    },
+    {
+        "business_id": "48629",
+        "name": "SUPERMARCHE B. ET G.",
+        "address": "11301 Av. Jean-Meunier, Montréal-Nord, Québec",
+        "owner": "SUPERMARCHE B & G INC.",
+        "category": "Boucherie-épicerie",
+        "ville": "Montréal-Nord",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.6044032,
+                "lng": -73.6221668
+            }
+        ]
+    },
+    {
+        "business_id": "116772",
+        "name": "DEPANNEUR 7 JOURS SOLEIL",
+        "address": "9558 Rue Jean-Milot, LaSalle, Québec",
+        "owner": "9367-1428 QUEBEC INC.",
+        "category": "Épicerie avec préparation",
+        "ville": "LaSalle",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.4307031,
+                "lng": -73.6480724
+            }
+        ]
+    },
+    {
+        "business_id": "119852",
+        "name": "CARIB PATTIES",
+        "address": "9550 Rue Jean-Milot, LaSalle, Québec",
+        "owner": "CARIB FARM TRADING COMPANY LTD.",
+        "category": "Restaurant",
+        "ville": "LaSalle",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.4306765,
+                "lng": -73.6478846
+            }
+        ]
+    },
+    {
+        "business_id": "107437",
+        "name": "THAI EXPRESS & OBURGER",
+        "address": "3420 Rue Jean-Yves, Kirkland, Québec",
+        "owner": "9271-4138 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "Kirkland",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.4416732,
+                "lng": -73.8866291
+            }
+        ]
+    },
+    {
+        "business_id": "3611",
+        "name": "MADISSON NEW-YORK GRIL & BAR (KIRKLAND)",
+        "address": "3000 Rue Jean-Yves, Kirkland, Québec",
+        "owner": "9192-2955 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "Kirkland",
+        "status": "Fermé",
+        "location": [
+            {
+                "lat": 45.440136,
+                "lng": -73.8865761
+            }
+        ]
+    },
+    {
+        "business_id": "11885",
+        "name": "RESIDENCE ANJOU 5747",
+        "address": "6020 Boul. Joseph-Renaud, Anjou, Québec",
+        "owner": "K-TECH CONSULTANTS INC.",
+        "category": "Résidence de personnes âgées",
+        "ville": "Anjou",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.6045372,
+                "lng": -73.54778329999999
+            }
+        ]
+    },
+    {
+        "business_id": "117373",
+        "name": "YAMI SUSHI",
+        "address": "6720 Boul. Joseph-Renaud, Anjou, Québec",
+        "owner": "9366-2674 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "Anjou",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.604639,
+                "lng": -73.552364
+            }
+        ]
+    },
+    {
+        "business_id": "118011",
+        "name": "YAMI SUSHI (EVS)",
+        "address": "6720 Boul. Joseph-Renaud, Anjou, Québec",
+        "owner": "9366-2674 QUEBEC INC.",
+        "category": "Événements spéciaux",
+        "ville": "Anjou",
+        "status": "Fermé",
+        "location": [
+            {
+                "lat": 45.604639,
+                "lng": -73.552364
+            }
+        ]
+    },
+    {
+        "business_id": "116180",
+        "name": "RESTAURANT KULJIT INDIA",
+        "address": "1911 Boul. Keller, St-Laurent, Québec",
+        "owner": "9698418 CANADA INC.",
+        "category": "Restaurant",
+        "ville": "St-Laurent",
+        "status": "Fermé",
+        "location": [
+            {
+                "lat": 45.5245545,
+                "lng": -73.7130619
+            }
+        ]
+    },
+    {
+        "business_id": "72281",
+        "name": "MARCHE DUCHEMIN ET FRERES INC.",
+        "address": "1947 Boul. Keller, St-Laurent, Québec",
+        "owner": "MARCHE DUCHEMIN & FRERES INC.",
+        "category": "Supermarché",
+        "ville": "St-Laurent",
+        "status": "Fermé",
+        "location": [
+            {
+                "lat": 45.5234185,
+                "lng": -73.7138568
+            }
+        ]
+    },
+    {
+        "business_id": "107855",
+        "name": "CAFE LE WHYNOT",
+        "address": "5384 Av. Gatineau, Montréal, Québec",
+        "owner": "9291-8077 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "Montréal",
+        "status": "Fermé",
+        "location": [
+            {
+                "lat": 45.4973153,
+                "lng": -73.62252219999999
+            }
+        ]
+    },
+    {
+        "business_id": "112919",
+        "name": "SAINT-HOUBLON 2",
+        "address": "5414 Av. Gatineau, Montréal, Québec",
+        "owner": "9335-0130 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "Montréal",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.4975734,
+                "lng": -73.6231232
+            }
+        ]
+    },
+    {
+        "business_id": "2753",
+        "name": "LE CARACTERE CHINOIS",
+        "address": "1870 Rue Gauthier, Montréal, Québec",
+        "owner": "LE CARACTERE CHINOIS",
+        "category": "Restaurant",
+        "ville": "Montréal",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.5302115,
+                "lng": -73.5664955
+            }
+        ]
+    },
+    {
+        "business_id": "104439",
+        "name": "LES DIABLOTINS GOURMANDS",
+        "address": "2021 Rue Gauthier, Montréal, Québec",
+        "owner": "CENDRINE LEVEQUE",
+        "category": "Épicerie avec préparation",
+        "ville": "Montréal",
+        "status": "Fermé",
+        "location": [
+            {
+                "lat": 45.5315663,
+                "lng": -73.565693
+            }
+        ]
+    },
+    {
+        "business_id": "104103",
+        "name": "PLANETE-PAIN",
+        "address": "2020 Rue Gauthier, Montréal, Québec",
+        "owner": "SIDIBE SEGA",
+        "category": "Restaurant service rapide",
+        "ville": "Montréal",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.5314364,
+                "lng": -73.5654722
+            }
+        ]
+    },
+    {
+        "business_id": "105717",
+        "name": "LA MAISON DE LA TORREFACTION",
+        "address": "412 Rue Gilford, Montréal, Québec",
+        "owner": "9274-8367 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "Montréal",
+        "status": "Fermé changement d'exploitant",
+        "location": [
+            {
+                "lat": 45.5257399,
+                "lng": -73.5860163
+            }
+        ]
+    },
+    {
+        "business_id": "118382",
+        "name": "PALAIS MAHARAJA",
+        "address": "404 Rue Gilford, Montréal, Québec",
+        "owner": "9338-3719 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "Montréal",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.5256338,
+                "lng": -73.5858824
+            }
+        ]
+    },
+    {
+        "business_id": "102233",
+        "name": "L'ART DU HAMBURGER",
+        "address": "408 Rue Gilford, Montréal, Québec",
+        "owner": "ART: BRGR INC.",
+        "category": "Restaurant",
+        "ville": "Montréal",
+        "status": "Fermé",
+        "location": [
+            {
+                "lat": 45.5256599,
+                "lng": -73.5860142
+            }
+        ]
+    },
+    {
+        "business_id": "116630",
+        "name": "RESTAURANT PHO MYMY EXPRESS",
+        "address": "408 Rue Gilford, Montréal, Québec",
+        "owner": "9363-5720 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "Montréal",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.5256599,
+                "lng": -73.5860142
+            }
+        ]
+    },
+    {
+        "business_id": "15005",
+        "name": "BOULANGERIE ET PATISSERIE SARA",
+        "address": "10420B Boul. Gouin Ouest, Roxboro, Québec",
+        "owner": "HASSAN BALTAJI",
+        "category": "Boulangerie",
+        "ville": "Roxboro",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.5106845,
+                "lng": -73.8064899
+            }
+        ]
+    },
+    {
+        "business_id": "107019",
+        "name": "GRILLADE ET BOUCHERIE AL-QUDS",
+        "address": "10380 Boul. Gouin Ouest, Roxboro, Québec",
+        "owner": "9282-0091 QUEBEC INC.",
+        "category": "Boucherie-épicerie",
+        "ville": "Roxboro",
+        "status": "Fermé changement d'exploitant",
+        "location": [
+            {
+                "lat": 45.5095211,
+                "lng": -73.8027626
+            }
+        ]
+    },
+    {
+        "business_id": "8844",
+        "name": "MONSIEUR PATATES FRITES( ROYAL POULET FRIT ET PIZZA)",
+        "address": "12680 Boul. Gouin Ouest, Pierrefonds, Québec",
+        "owner": "9203-1707 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "Pierrefonds",
+        "status": "Fermé",
+        "location": [
+            {
+                "lat": 45.504568,
+                "lng": -73.8358645
+            }
+        ]
+    },
+    {
+        "business_id": "3993",
+        "name": "110 MIRACLES INC.",
+        "address": "9549 Boul. Gouin Ouest, Pierrefonds, Québec",
+        "owner": "9214-8600 QUEBEC INC.",
+        "category": "Épicerie avec préparation",
+        "ville": "Pierrefonds",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.5045404,
+                "lng": -73.7793057
+            }
+        ]
+    },
+    {
+        "business_id": "74030",
+        "name": "LUNA PIZZERIA",
+        "address": "11985 Boul. Gouin Ouest, Pierrefonds, Québec",
+        "owner": "9180-8873 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "Pierrefonds",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.5073015,
+                "lng": -73.8258507
+            }
+        ]
+    },
+    {
+        "business_id": "74195",
+        "name": "MARCHE JAFFNA FRUITS",
+        "address": "12201 Boul. Gouin Ouest, Pierrefonds, Québec",
+        "owner": "SAMPANTHAR BASKARAN",
+        "category": "Boucherie-épicerie",
+        "ville": "Pierrefonds",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.50665009999999,
+                "lng": -73.8287814
+            }
+        ]
+    },
+    {
+        "business_id": "105444",
+        "name": "RESTAURANT BMS",
+        "address": "12205 Boul. Gouin Ouest, Pierrefonds, Québec",
+        "owner": "9250-9355 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "Pierrefonds",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.50665069999999,
+                "lng": -73.828891
+            }
+        ]
+    },
+    {
+        "business_id": "102711",
+        "name": "GARDERIE LES AMOURS DE MIA ET TIA I",
+        "address": "13115 Boul. Gouin Ouest, Pierrefonds, Québec",
+        "owner": "GARDERIE LES AMOURS DE MIA ET TIA INC.",
+        "category": "Garderie",
+        "ville": "Pierrefonds",
+        "status": "Fermé",
+        "location": [
+            {
+                "lat": 45.5028276,
+                "lng": -73.8420482
+            }
+        ]
+    },
+    {
+        "business_id": "19317",
+        "name": "ETABLISSEMENT DE DETENTION BORDEAUX",
+        "address": "800 Boul. Gouin Ouest, Local PORT14, Montréal, Québec",
+        "owner": "MINISTERE DE LA SECURITE PUBLIQUE",
+        "category": "Centre d'accueil",
+        "ville": "Montréal",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.5451345,
+                "lng": -73.6857818
+            }
+        ]
+    },
+    {
+        "business_id": "7192",
+        "name": "PIZZA DELI NIKOS",
+        "address": "5745 Boul. Gouin Ouest, Montréal, Québec",
+        "owner": "9169-2178 QUEBEC INC.",
+        "category": "Restaurant service rapide",
+        "ville": "Montréal",
+        "status": "Fermé changement d'exploitant",
+        "location": [
+            {
+                "lat": 45.5326935,
+                "lng": -73.7191963
+            }
+        ]
+    },
+    {
+        "business_id": "108894",
+        "name": "RESTAURANT PAULO ET SUZANNE",
+        "address": "5501 Boul. Gouin Ouest, Montréal, Québec",
+        "owner": "9147-5947 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "Montréal",
+        "status": "Fermé changement d'exploitant",
+        "location": [
+            {
+                "lat": 45.5338649,
+                "lng": -73.717242
+            }
+        ]
+    },
+    {
+        "business_id": "119600",
+        "name": "KENEDY POULET FRIT ET PIZZA",
+        "address": "5904 Boul. Gouin Ouest, Montréal, Québec",
+        "owner": "KENEDY POULET FRIT ET PIZZA INC.",
+        "category": "Restaurant",
+        "ville": "Montréal",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.5316238,
+                "lng": -73.7211468
+            }
+        ]
+    },
+    {
+        "business_id": "48055",
+        "name": "EPICERIE J.D.V. INC.",
+        "address": "3461 Boul. Gouin Est, Local 412, Montréal-Nord, Québec",
+        "owner": "EPICERIE J.D.V. INC.",
+        "category": "Boucherie-épicerie",
+        "ville": "Montréal-Nord",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.5904257,
+                "lng": -73.65086029999999
+            }
+        ]
+    },
+    {
+        "business_id": "104074",
+        "name": "DEPANNEUR LE BEL AGE",
+        "address": "7015 Boul. Gouin Est, Montréal, Québec",
+        "owner": "9261-9204 QUEBEC INC.",
+        "category": "Épicerie avec préparation",
+        "ville": "Montréal",
+        "status": "Fermé changement d'exploitant",
+        "location": [
+            {
+                "lat": 45.6298068,
+                "lng": -73.618665
+            }
+        ]
+    },
+    {
+        "business_id": "116096",
+        "name": "LES ALIMENTS RAWESOME",
+        "address": "151 Rue Gounod, Montréal, Québec",
+        "owner": "RAWESOME RAW VEGAN INC.",
+        "category": "Usine produit autre",
+        "ville": "Montréal",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.5393414,
+                "lng": -73.62770549999999
+            }
+        ]
+    },
+    {
+        "business_id": "111821",
+        "name": "PATISSERIE LAJEUNESSE",
+        "address": "533 Rue Gounod, Montréal, Québec",
+        "owner": "PATISSERIE LAJEUNESSE INC.",
+        "category": "Pâtisserie",
+        "ville": "Montréal",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.5427343,
+                "lng": -73.6257123
+            }
+        ]
+    },
+    {
+        "business_id": "4119",
+        "name": "PATISSERIE LAJEUNESSE",
+        "address": "533 Rue Gounod, Montréal, Québec",
+        "owner": "9036-8457 QUEBEC INC.",
+        "category": "Boulangerie",
+        "ville": "Montréal",
+        "status": "Fermé changement d'exploitant",
+        "location": [
+            {
+                "lat": 45.5427343,
+                "lng": -73.6257123
+            }
+        ]
+    },
+    {
+        "business_id": "17610",
+        "name": "LES ALIMENTS KIM PHAT (GOYER)",
+        "address": "3588 Rue Goyer, Montréal, Québec",
+        "owner": "3849520 CANADA INC.",
+        "category": "Boucherie-épicerie",
+        "ville": "Montréal",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.5030884,
+                "lng": -73.6362042
+            }
+        ]
+    },
+    {
+        "business_id": "7455",
+        "name": "RESTAURANT SHISH TAOUK EXPRESS",
+        "address": "3245 Av. de Granby, Local 08, Montréal, Québec",
+        "owner": "6280871 CANADA INC.",
+        "category": "Restaurant service rapide",
+        "ville": "Montréal",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.5817674,
+                "lng": -73.5416274
+            }
+        ]
+    },
+    {
+        "business_id": "2023",
+        "name": "BRASSERIE AURORA",
+        "address": "3175 Av. de Granby, Montréal, Québec",
+        "owner": "BRASSERIE AURORA INC.",
+        "category": "Brasserie",
+        "ville": "Montréal",
+        "status": "Fermé",
+        "location": [
+            {
+                "lat": 45.5818669,
+                "lng": -73.5412801
+            }
+        ]
+    },
+    {
+        "business_id": "107692",
+        "name": "BONBON DEPOT",
+        "address": "3235 Av. de Granby, Local 41, Montréal, Québec",
+        "owner": "9289-1191 QUEBEC INC.",
+        "category": "Épicerie avec préparation",
+        "ville": "Montréal",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.58157019999999,
+                "lng": -73.54143979999999
+            }
+        ]
+    },
+    {
+        "business_id": "115092",
+        "name": "PIZZA PIZZA",
+        "address": "3235 Av. de Granby, Local 51, Montréal, Québec",
+        "owner": "KARRACH CHMALI INC.",
+        "category": "Restaurant",
+        "ville": "Montréal",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.58157019999999,
+                "lng": -73.54143979999999
+            }
+        ]
+    },
+    {
+        "business_id": "7695",
+        "name": "SHISH POULET",
+        "address": "5918 Boul. des Grandes-Prairies, St-Léonard, Québec",
+        "owner": "9216-9689 QUEBEC INC.",
+        "category": "Restaurant service rapide",
+        "ville": "St-Léonard",
+        "status": "Fermé changement d'exploitant",
+        "location": [
+            {
+                "lat": 45.59983889999999,
+                "lng": -73.6098726
+            }
+        ]
+    },
+    {
+        "business_id": "67665",
+        "name": "LES VIANDES NADA IMPORT-EXPORT",
+        "address": "4629 Boul. des Grandes-Prairies, St-Léonard, Québec",
+        "owner": "LES VIANDES NADA IMPORT-EXPORT INC.",
+        "category": "Charcuterie",
+        "ville": "St-Léonard",
+        "status": "Fermé changement d'exploitant",
+        "location": [
+            {
+                "lat": 45.5872661,
+                "lng": -73.62154029999999
+            }
+        ]
+    },
+    {
+        "business_id": "1244",
+        "name": "KYOTO SUSHI BAR-GRILLADES",
+        "address": "5753 Boul. des Grandes-Prairies, St-Léonard, Québec",
+        "owner": "RESTAURANT KYOTO SUSHI BAR INC.",
+        "category": "Restaurant",
+        "ville": "St-Léonard",
+        "status": "Fermé",
+        "location": [
+            {
+                "lat": 45.5987283,
+                "lng": -73.61255659999999
+            }
+        ]
+    },
+    {
+        "business_id": "46298",
+        "name": "FRESCO RESTAURANT BAR GRILL",
+        "address": "6040 Boul. des Grandes-Prairies, St-Léonard, Québec",
+        "owner": "9051-5487 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "St-Léonard",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.60143,
+                "lng": -73.6099274
+            }
+        ]
+    },
+    {
+        "business_id": "6616",
+        "name": "CINEMA MEGA-PLEX LACORDAIRE 16",
+        "address": "5940 Boul. des Grandes-Prairies, St-Léonard, Québec",
+        "owner": "CG MONTREAL INC.",
+        "category": "Restaurant service rapide",
+        "ville": "St-Léonard",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.6003892,
+                "lng": -73.6093653
+            }
+        ]
+    },
+    {
+        "business_id": "102475",
+        "name": "BISTRO SUR L'AVENUE",
+        "address": "1362 Av. Greene, Westmount, Québec",
+        "owner": "9229-1780 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "Westmount",
+        "status": "Fermé changement d'exploitant",
+        "location": [
+            {
+                "lat": 45.4874602,
+                "lng": -73.59099599999999
+            }
+        ]
+    },
+    {
+        "business_id": "115776",
+        "name": "BRIOCHE DOREE",
+        "address": "1236 Av. Greene, Westmount, Québec",
+        "owner": "9340-0885 QUEBEC INC.",
+        "category": "Restaurant service rapide",
+        "ville": "Westmount",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.48648499999999,
+                "lng": -73.58881339999999
+            }
+        ]
+    },
+    {
+        "business_id": "114786",
+        "name": "PIZZA ET POULET EXPRESS",
+        "address": "1775 Rue Grenet, St-Laurent, Québec",
+        "owner": "9345-7885 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "St-Laurent",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.518953,
+                "lng": -73.69773479999999
+            }
+        ]
+    },
+    {
+        "business_id": "7200",
+        "name": "RESTAURANT HALAL AMARA",
+        "address": "1771 Rue Grenet, St-Laurent, Québec",
+        "owner": "RESTAURANT HALAL AMARA INC.",
+        "category": "Restaurant service rapide",
+        "ville": "St-Laurent",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.5188301,
+                "lng": -73.69753159999999
+            }
+        ]
+    },
+    {
+        "business_id": "622",
+        "name": "BOULANGERIE PATISSERIE GUIZOT",
+        "address": "31 Rue Guizot Est, Montréal, Québec",
+        "owner": "BOULANGERIE, PATISSERIE GUIZOT INC.",
+        "category": "Boulangerie",
+        "ville": "Montréal",
+        "status": "Fermé",
+        "location": [
+            {
+                "lat": 45.54040699999999,
+                "lng": -73.634367
+            }
+        ]
+    },
+    {
+        "business_id": "112542",
+        "name": "BOULANGERIE AL-TAIB",
+        "address": "2125 Rue Guy, Montréal, Québec",
+        "owner": "9215-4384 QUEBEC INC.",
+        "category": "Boulangerie",
+        "ville": "Montréal",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.4961096,
+                "lng": -73.5799165
+            }
+        ]
+    },
+    {
+        "business_id": "13637",
+        "name": "CENTRE BOOTH DE L'ARMEE DU SALUT",
+        "address": "880 Rue Guy, Montréal, Québec",
+        "owner": "CONSEIL DE DIRECTION DE L'ARMEE DU SALUT DU CANADA",
+        "category": "Organisme d'aide alimentaire",
+        "ville": "Montréal",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.49215,
+                "lng": -73.5723989
+            }
+        ]
+    },
+    {
+        "business_id": "4455",
+        "name": "RESTAURANT CHATEAU KABAB",
+        "address": "2140 Rue Guy, Montréal, Québec",
+        "owner": "CHATEAUKABAB INC.",
+        "category": "Restaurant",
+        "ville": "Montréal",
+        "status": "Fermé changement d'exploitant",
+        "location": [
+            {
+                "lat": 45.4958633,
+                "lng": -73.5802841
+            }
+        ]
+    },
+    {
+        "business_id": "109023",
+        "name": "CUISINE SZECHUAN",
+        "address": "2350 Rue Guy, Montréal, Québec",
+        "owner": "9288-0145 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "Montréal",
+        "status": "Fermé changement d'exploitant",
+        "location": [
+            {
+                "lat": 45.4963307,
+                "lng": -73.5814687
+            }
+        ]
+    },
+    {
+        "business_id": "15180",
+        "name": "RESTAURANT LA PERLE BLEUE",
+        "address": "1005 Rue Guy, Montréal, Québec",
+        "owner": "RESTAURANT LA PERLE BLEUE INC.",
+        "category": "Restaurant",
+        "ville": "Montréal",
+        "status": "Fermé changement d'exploitant",
+        "location": [
+            {
+                "lat": 45.4935436,
+                "lng": -73.5734806
+            }
+        ]
+    },
+    {
+        "business_id": "116854",
+        "name": "CAFE JAVA U",
+        "address": "1455 Rue Guy, Montréal, Québec",
+        "owner": "GROUPE REACH CHIROTH INC.",
+        "category": "Restaurant service rapide",
+        "ville": "Montréal",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.4958233,
+                "lng": -73.579044
+            }
+        ]
+    },
+    {
+        "business_id": "119670",
+        "name": "MARCHE FRUITERIE CITE",
+        "address": "7427 Av. Harley, Montréal, Québec",
+        "owner": "9382-0264 QUEBEC INC.",
+        "category": "Épicerie avec préparation",
+        "ville": "Montréal",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.454472,
+                "lng": -73.6395421
+            }
+        ]
+    },
+    {
+        "business_id": "102438",
+        "name": "PATISSERIE JONG RO",
+        "address": "7417 Av. Harley, Montréal, Québec",
+        "owner": "9247-8239 QUEBEC INC.",
+        "category": "Pâtisserie",
+        "ville": "Montréal",
+        "status": "Fermé",
+        "location": [
+            {
+                "lat": 45.45463059999999,
+                "lng": -73.6392089
+            }
+        ]
+    },
+    {
+        "business_id": "15911",
+        "name": "BUFFET ORIENTAL",
+        "address": "7165 Boul. Newman, LaSalle, Québec",
+        "owner": "9216-0134 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "LaSalle",
+        "status": "Fermé",
+        "location": [
+            {
+                "lat": 45.44392999999999,
+                "lng": -73.6163723
+            }
+        ]
+    },
+    {
+        "business_id": "9323",
+        "name": "CHEZ CORA DEJEUNERS",
+        "address": "7573 Boul. Newman, LaSalle, Québec",
+        "owner": "6239285 CANADA INC.",
+        "category": "Restaurant",
+        "ville": "LaSalle",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.4402487,
+                "lng": -73.62253059999999
+            }
+        ]
+    },
+    {
+        "business_id": "8847",
+        "name": "RESTAURANT AMIR",
+        "address": "7077 Boul. Newman, Local 3050, LaSalle, Québec",
+        "owner": "9023-1796 QUEBEC INC.",
+        "category": "Restaurant service rapide",
+        "ville": "LaSalle",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.44771739999999,
+                "lng": -73.61506609999999
+            }
+        ]
+    },
+    {
+        "business_id": "62321",
+        "name": "CASA GRECQUE",
+        "address": "7218 Boul. Newman, LaSalle, Québec",
+        "owner": "172069 CANADA INC.",
+        "category": "Restaurant",
+        "ville": "LaSalle",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.442273,
+                "lng": -73.61588499999999
+            }
+        ]
+    },
+    {
+        "business_id": "9036",
+        "name": "BOULANGERIE, CHARCUTERIE  LA MARCHEGIANA",
+        "address": "7757 Boul. Newman, LaSalle, Québec",
+        "owner": "9087-9420 QUEBEC INC.",
+        "category": "Boulangerie",
+        "ville": "LaSalle",
+        "status": "Fermé",
+        "location": [
+            {
+                "lat": 45.4380062,
+                "lng": -73.6248353
+            }
+        ]
+    },
+    {
+        "business_id": "62347",
+        "name": "RESTAURANT AU PARADIS DES ILES",
+        "address": "8080 Boul. Newman, LaSalle, Québec",
+        "owner": "SABIETHRIE PARSRAM",
+        "category": "Restaurant",
+        "ville": "LaSalle",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.43432259999999,
+                "lng": -73.6271205
+            }
+        ]
+    },
+    {
+        "business_id": "62241",
+        "name": "LA BOULANGERIE LA SALLE",
+        "address": "8170 Boul. Newman, LaSalle, Québec",
+        "owner": "LA BOULANGERIE LA SALLE INC.",
+        "category": "Épicerie avec préparation",
+        "ville": "LaSalle",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.433842,
+                "lng": -73.62780649999999
+            }
+        ]
+    },
+    {
+        "business_id": "16053",
+        "name": "CHEZ PING",
+        "address": "7401 Boul. Newman, Local 01, LaSalle, Québec",
+        "owner": "9223-7494 QUEBEC INC.",
+        "category": "Restaurant service rapide",
+        "ville": "LaSalle",
+        "status": "Fermé changement d'exploitant",
+        "location": [
+            {
+                "lat": 45.4423957,
+                "lng": -73.6223825
+            }
+        ]
+    },
+    {
+        "business_id": "116593",
+        "name": "RESTAURANT CHEZ PING INC.",
+        "address": "7401 Boul. Newman, Local 01, LaSalle, Québec",
+        "owner": "RESTAURANT CHEZ PING INC.",
+        "category": "Restaurant",
+        "ville": "LaSalle",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.4423957,
+                "lng": -73.6223825
+            }
+        ]
+    },
+    {
+        "business_id": "118497",
+        "name": "RESTAURANT CHEZ LIEN",
+        "address": "8171 Boul. Newman, LaSalle, Québec",
+        "owner": "9382-4993 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "LaSalle",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.43395200000001,
+                "lng": -73.6287555
+            }
+        ]
+    },
+    {
+        "business_id": "106153",
+        "name": "RESTAURANT DAGWOODS",
+        "address": "7569 Boul. Newman, LaSalle, Québec",
+        "owner": "9278-8116 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "LaSalle",
+        "status": "Fermé changement d'exploitant",
+        "location": [
+            {
+                "lat": 45.440333,
+                "lng": -73.6224292
+            }
+        ]
+    },
+    {
+        "business_id": "117854",
+        "name": "ARAHOVA SOUVLAKI LASALLE",
+        "address": "8051 Boul. Newman, LaSalle, Québec",
+        "owner": "9377-4909 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "LaSalle",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.4353579,
+                "lng": -73.6273509
+            }
+        ]
+    },
+    {
+        "business_id": "119667",
+        "name": "SHISH POULET",
+        "address": "8195 Boul. Newman, LaSalle, Québec",
+        "owner": "9383-3168 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "LaSalle",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.433819,
+                "lng": -73.6290233
+            }
+        ]
+    },
+    {
+        "business_id": "113811",
+        "name": "SHISH POULET",
+        "address": "8195 Boul. Newman, LaSalle, Québec",
+        "owner": "9338-2596 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "LaSalle",
+        "status": "Fermé changement d'exploitant",
+        "location": [
+            {
+                "lat": 45.433819,
+                "lng": -73.6290233
+            }
+        ]
+    },
+    {
+        "business_id": "109858",
+        "name": "TERIYAKI EXPERIENCE",
+        "address": "7077 Boul. Newman, Local 3020, LaSalle, Québec",
+        "owner": "T & T JILI INC.",
+        "category": "Restaurant",
+        "ville": "LaSalle",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.44771739999999,
+                "lng": -73.61506609999999
+            }
+        ]
+    },
+    {
+        "business_id": "11108",
+        "name": "TIMOTHY'S CAFE DU MONDE",
+        "address": "7077 Boul. Newman, Local 193, LaSalle, Québec",
+        "owner": "9163-6381 QUEBEC INC.",
+        "category": "Restaurant service rapide",
+        "ville": "LaSalle",
+        "status": "Fermé",
+        "location": [
+            {
+                "lat": 45.44771739999999,
+                "lng": -73.61506609999999
+            }
+        ]
+    },
+    {
+        "business_id": "5631",
+        "name": "L'ORIGINAL PEDDLERS BAR GRILLADES REST.",
+        "address": "7500 Boul. Newman, LaSalle, Québec",
+        "owner": "9044-2179 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "LaSalle",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.4399946,
+                "lng": -73.6208534
+            }
+        ]
+    },
+    {
+        "business_id": "14567",
+        "name": "TACO SUPREME",
+        "address": "7077 Boul. Newman, Local 307, LaSalle, Québec",
+        "owner": "9164-3049 QUEBEC INC.",
+        "category": "Restaurant service rapide",
+        "ville": "LaSalle",
+        "status": "Fermé changement d'exploitant",
+        "location": [
+            {
+                "lat": 45.44771739999999,
+                "lng": -73.61506609999999
+            }
+        ]
+    },
+    {
+        "business_id": "110101",
+        "name": "TIKI MING",
+        "address": "7077 Boul. Newman, Local F10, LaSalle, Québec",
+        "owner": "9304-6993 QUEBEC INC.",
+        "category": "Restaurant service rapide",
+        "ville": "LaSalle",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.44771739999999,
+                "lng": -73.61506609999999
+            }
+        ]
+    },
+    {
+        "business_id": "100238",
+        "name": "BISTRO BEST CUP (DANS LE CENTRE)",
+        "address": "7401 Boul. Newman, Local K-2, LaSalle, Québec",
+        "owner": "9222-5440 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "LaSalle",
+        "status": "Fermé",
+        "location": [
+            {
+                "lat": 45.4423957,
+                "lng": -73.6223825
+            }
+        ]
+    },
+    {
+        "business_id": "114331",
+        "name": "RESTAURANT LACHINE",
+        "address": "1050 Rue Notre-Dame, Lachine, Québec",
+        "owner": "9345-9246 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "Lachine",
+        "status": "Fermé",
+        "location": [
+            {
+                "lat": 45.4350502,
+                "lng": -73.67302099999999
+            }
+        ]
+    },
+    {
+        "business_id": "108182",
+        "name": "TOTO PIZZERIA LACHINE",
+        "address": "1380 Rue Notre-Dame, Lachine, Québec",
+        "owner": "9294-5476 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "Lachine",
+        "status": "Fermé changement d'exploitant",
+        "location": [
+            {
+                "lat": 45.4351087,
+                "lng": -73.67630299999999
+            }
+        ]
+    },
+    {
+        "business_id": "100735",
+        "name": "LA MAISON HO",
+        "address": "2945 Rue Notre-Dame, Lachine, Québec",
+        "owner": "PHUONG TU VAN",
+        "category": "Restaurant",
+        "ville": "Lachine",
+        "status": "Fermé",
+        "location": [
+            {
+                "lat": 45.4341718,
+                "lng": -73.69086539999999
+            }
+        ]
+    },
+    {
+        "business_id": "103674",
+        "name": "TRAITEUR FELIX",
+        "address": "800 Rue Notre-Dame, Lachine, Québec",
+        "owner": "9028-0470 QUEBEC INC.",
+        "category": "Traiteur",
+        "ville": "Lachine",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.4351022,
+                "lng": -73.670935
+            }
+        ]
+    },
+    {
+        "business_id": "108034",
+        "name": "LA MAISON HO",
+        "address": "1800 Rue Notre-Dame, Lachine, Québec",
+        "owner": "9293-2292 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "Lachine",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.4352337,
+                "lng": -73.6804245
+            }
+        ]
+    },
+    {
+        "business_id": "104342",
+        "name": "CSH-HCN LESSEE (LACHINE) LP 5023",
+        "address": "3000 Rue Notre-Dame, Lachine, Québec",
+        "owner": "CSH-HCN LESSEE (LACHINE) GP INC.",
+        "category": "Résidence de personnes âgées",
+        "ville": "Lachine",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.4353241,
+                "lng": -73.6911959
+            }
+        ]
+    },
+    {
+        "business_id": "67174",
+        "name": "RESTAURANT LA MAMA",
+        "address": "1173 Rue Notre-Dame, Lachine, Québec",
+        "owner": "MIRNA ZEBIB & BASSAM ALJABI",
+        "category": "Restaurant",
+        "ville": "Lachine",
+        "status": "Fermé",
+        "location": [
+            {
+                "lat": 45.434846,
+                "lng": -73.67432699999999
+            }
+        ]
+    },
+    {
+        "business_id": "112698",
+        "name": "MOMMY POISSON ET FRITES",
+        "address": "3135 Rue Notre-Dame, Lachine, Québec",
+        "owner": "CHANCE JINCY INC.",
+        "category": "Casse-croûte",
+        "ville": "Lachine",
+        "status": "Fermé",
+        "location": [
+            {
+                "lat": 45.434366,
+                "lng": -73.691518
+            }
+        ]
+    },
+    {
+        "business_id": "3635",
+        "name": "RESTAURANT LE BARDECO",
+        "address": "605 Rue Notre-Dame, Lachine, Québec",
+        "owner": "2969-6499 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "Lachine",
+        "status": "Fermé",
+        "location": [
+            {
+                "lat": 45.4348221,
+                "lng": -73.6696525
+            }
+        ]
+    },
+    {
+        "business_id": "13280",
+        "name": "MARCHE KELLI",
+        "address": "1060 Rue Notre-Dame, Lachine, Québec",
+        "owner": "PHILIPOSE SARAMA JOSEPH",
+        "category": "Épicerie",
+        "ville": "Lachine",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.4350462,
+                "lng": -73.6731221
+            }
+        ]
+    },
+    {
+        "business_id": "116771",
+        "name": "9323-7790 QUEBEC INC.(HOU KITCHEN)",
+        "address": "825 Rue Notre-Dame, Lachine, Québec",
+        "owner": "9323-7790 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "Lachine",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.4347399,
+                "lng": -73.6710338
+            }
+        ]
+    },
+    {
+        "business_id": "68087",
+        "name": "RESTAURANT TRANS-CANADA",
+        "address": "880 Rue Notre-Dame, Lachine, Québec",
+        "owner": "130916 CANADA INC.",
+        "category": "Restaurant",
+        "ville": "Lachine",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.435103,
+                "lng": -73.67145599999999
+            }
+        ]
+    },
+    {
+        "business_id": "12204",
+        "name": "SUPER MARCHE MOURELATOS",
+        "address": "1855 Av. O'Brien, St-Laurent, Québec",
+        "owner": "3424626 CANADA INC.",
+        "category": "Supermarché",
+        "ville": "St-Laurent",
+        "status": "Fermé",
+        "location": [
+            {
+                "lat": 45.5237808,
+                "lng": -73.69180020000002
+            }
+        ]
+    },
+    {
+        "business_id": "104234",
+        "name": "MARCHE MEDITERRANEE",
+        "address": "1823 Av. O'Brien, St-Laurent, Québec",
+        "owner": "PYRAMIDE IMPEX INC.",
+        "category": "Boucherie-épicerie",
+        "ville": "St-Laurent",
+        "status": "Fermé",
+        "location": [
+            {
+                "lat": 45.5236076,
+                "lng": -73.6912562
+            }
+        ]
+    },
+    {
+        "business_id": "8534",
+        "name": "RESTAURANT BOLDUC",
+        "address": "4351 Av. De Lorimier, Montréal, Québec",
+        "owner": "9176-2419 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "Montréal",
+        "status": "Fermé changement d'exploitant",
+        "location": [
+            {
+                "lat": 45.5343212,
+                "lng": -73.5702459
+            }
+        ]
+    },
+    {
+        "business_id": "109248",
+        "name": "LES ALIMENTS YUPIK",
+        "address": "1385 Rue de Louvain Ouest, Montréal, Québec",
+        "owner": "LES ALIMENTS YUPIK INC.",
+        "category": "Épicerie avec préparation",
+        "ville": "Montréal",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.5328654,
+                "lng": -73.6618247
+            }
+        ]
+    },
+    {
+        "business_id": "104565",
+        "name": "ACADEMIE SOLOMON SCHECHTER",
+        "address": "4940 Av. Macdonald, Montréal, Québec",
+        "owner": "SOLOMON SCHECHTER ACADEMY",
+        "category": "Cafétéria institution d'enseignement",
+        "ville": "Montréal",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.4791057,
+                "lng": -73.6299722
+            }
+        ]
+    },
+    {
+        "business_id": "117337",
+        "name": "HINNAWI BROS BAGEL ET CAFE",
+        "address": "2002 Rue Mackay, Local 2002, Montréal, Québec",
+        "owner": "9327-6251 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "Montréal",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.49653319999999,
+                "lng": -73.5791187
+            }
+        ]
+    },
+    {
+        "business_id": "105892",
+        "name": "RESTAURANT MEI",
+        "address": "1425 Rue Mackay, Montréal, Québec",
+        "owner": "9268-0081 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "Montréal",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.4962314,
+                "lng": -73.57751019999999
+            }
+        ]
+    },
+    {
+        "business_id": "112740",
+        "name": "SALON ARABICA",
+        "address": "1221 Rue Mackay, Montréal, Québec",
+        "owner": "9293-2722 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "Montréal",
+        "status": "Fermé changement d'exploitant",
+        "location": [
+            {
+                "lat": 45.4954989,
+                "lng": -73.5756121
+            }
+        ]
+    },
+    {
+        "business_id": "121115",
+        "name": "SALON ARABICA",
+        "address": "1221 Rue Mackay, Montréal, Québec",
+        "owner": "9364-8897 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "Montréal",
+        "status": "Fermé changement d'exploitant",
+        "location": [
+            {
+                "lat": 45.4954989,
+                "lng": -73.5756121
+            }
+        ]
+    },
+    {
+        "business_id": "115153",
+        "name": "MAISON DE CARY MADDRAS",
+        "address": "1242 Rue Mackay, Montréal, Québec",
+        "owner": "9351-4552 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "Montréal",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.4952338,
+                "lng": -73.5763171
+            }
+        ]
+    },
+    {
+        "business_id": "118457",
+        "name": "YEN CUISINE JAPONAISE",
+        "address": "2157 Rue Mackay, Montréal, Québec",
+        "owner": "9372-7378 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "Montréal",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.4974937,
+                "lng": -73.5801646
+            }
+        ]
+    },
+    {
+        "business_id": "12871",
+        "name": "RESTAURANT SORGHO ROUGE",
+        "address": "1862 Boul. De Maisonneuve Ouest, Montréal, Québec",
+        "owner": "9212-6846 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "Montréal",
+        "status": "Fermé changement d'exploitant",
+        "location": [
+            {
+                "lat": 45.4936713,
+                "lng": -73.5813118
+            }
+        ]
+    },
+    {
+        "business_id": "104626",
+        "name": "RESTAURANT GANADARA",
+        "address": "1862 Boul. De Maisonneuve Ouest, Montréal, Québec",
+        "owner": "9168-1346 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "Montréal",
+        "status": "Fermé",
+        "location": [
+            {
+                "lat": 45.4936713,
+                "lng": -73.5813118
+            }
+        ]
+    },
+    {
+        "business_id": "13178",
+        "name": "MARCHE AL MIZAN",
+        "address": "1695 Boul. De Maisonneuve Ouest, Montréal, Québec",
+        "owner": "9197-6167 QUEBEC INC.",
+        "category": "Boucherie-épicerie",
+        "ville": "Montréal",
+        "status": "Fermé",
+        "location": [
+            {
+                "lat": 45.49474439999999,
+                "lng": -73.5805735
+            }
+        ]
+    },
+    {
+        "business_id": "110267",
+        "name": "LE PARTICULIER",
+        "address": "611 Boul. De Maisonneuve Ouest, Montréal, Québec",
+        "owner": "9303-1433 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "Montréal",
+        "status": "Fermé",
+        "location": [
+            {
+                "lat": 45.50495249999999,
+                "lng": -73.5711151
+            }
+        ]
+    },
+    {
+        "business_id": "111888",
+        "name": "RESTAURANT SOUBOIS",
+        "address": "1106 Boul. De Maisonneuve Ouest, Montréal, Québec",
+        "owner": "9307-7170 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "Montréal",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.5005686,
+                "lng": -73.5748107
+            }
+        ]
+    },
+    {
+        "business_id": "113822",
+        "name": "RESTAURANT AMIR",
+        "address": "1333 Boul. De Maisonneuve Ouest, Montréal, Québec",
+        "owner": "9327-8398 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "Montréal",
+        "status": "Fermé changement d'exploitant",
+        "location": [
+            {
+                "lat": 45.4984215,
+                "lng": -73.57738259999999
+            }
+        ]
+    },
+    {
+        "business_id": "9427",
+        "name": "AL-TAIB",
+        "address": "1625 Boul. De Maisonneuve Ouest, Local 101, Montréal, Québec",
+        "owner": "9198-4351 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "Montréal",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.4955693,
+                "lng": -73.57995749999999
+            }
+        ]
+    },
+    {
+        "business_id": "101912",
+        "name": "TAPIOCA THE",
+        "address": "1672 Boul. De Maisonneuve Ouest, Montréal, Québec",
+        "owner": "9229-9627 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "Montréal",
+        "status": "Fermé",
+        "location": [
+            {
+                "lat": 45.4947787,
+                "lng": -73.5800969
+            }
+        ]
+    },
+    {
+        "business_id": "112598",
+        "name": "RESTAURANT SHI TANG",
+        "address": "1622 Boul. De Maisonneuve Ouest, Montréal, Québec",
+        "owner": "9332-8078 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "Montréal",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.4952405,
+                "lng": -73.5793928
+            }
+        ]
+    },
+    {
+        "business_id": "15280",
+        "name": "PATISSERIE COCOBUN",
+        "address": "1550 Boul. De Maisonneuve Ouest, Local 003, Montréal, Québec",
+        "owner": "9212-3751 QUEBEC INC.",
+        "category": "Pâtisserie",
+        "ville": "Montréal",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.4959268,
+                "lng": -73.57884349999999
+            }
+        ]
+    },
+    {
+        "business_id": "14725",
+        "name": "GUSTAVE",
+        "address": "980 Boul. De Maisonneuve Ouest, Montréal, Québec",
+        "owner": "9216-0670 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "Montréal",
+        "status": "Fermé",
+        "location": [
+            {
+                "lat": 45.5016556,
+                "lng": -73.57359459999999
+            }
+        ]
+    },
+    {
+        "business_id": "102415",
+        "name": "THAI EXPRESS",
+        "address": "1570 Boul. De Maisonneuve Ouest, Montréal, Québec",
+        "owner": "L'ERABLE CORPORATION LTEE",
+        "category": "Restaurant service rapide",
+        "ville": "Montréal",
+        "status": "Fermé changement d'exploitant",
+        "location": [
+            {
+                "lat": 45.4959198,
+                "lng": -73.5789191
+            }
+        ]
+    },
+    {
+        "business_id": "103102",
+        "name": "NOUILLE EXPRESS",
+        "address": "1510 Boul. De Maisonneuve Ouest, Montréal, Québec",
+        "owner": "9248-4104 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "Montréal",
+        "status": "Fermé changement d'exploitant",
+        "location": [
+            {
+                "lat": 45.4963639,
+                "lng": -73.5786803
+            }
+        ]
+    },
+    {
+        "business_id": "111366",
+        "name": "PIZZA BELLA",
+        "address": "1550 Boul. De Maisonneuve Ouest, Montréal, Québec",
+        "owner": "8927642 CANADA INC.",
+        "category": "Restaurant",
+        "ville": "Montréal",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.4959268,
+                "lng": -73.57884349999999
+            }
+        ]
+    },
+    {
+        "business_id": "5664",
+        "name": "ANGELA PIZZERIA ET RESTAURANT",
+        "address": "1662 Boul. De Maisonneuve Ouest, Montréal, Québec",
+        "owner": "6750907 CANADA INC.",
+        "category": "Restaurant",
+        "ville": "Montréal",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.4948224,
+                "lng": -73.5799237
+            }
+        ]
+    },
+    {
+        "business_id": "9201",
+        "name": "NIGIRI SUSHI (CATHEDRALE)",
+        "address": "600 Boul. De Maisonneuve Ouest, Local 5360, Montréal, Québec",
+        "owner": "9169-4802 QUEBEC INC.",
+        "category": "Restaurant mets pour emporter",
+        "ville": "Montréal",
+        "status": "Fermé",
+        "location": [
+            {
+                "lat": 45.5041009,
+                "lng": -73.5710036
+            }
+        ]
+    },
+    {
+        "business_id": "117236",
+        "name": "RESTO LA CIBLE",
+        "address": "1665 Boul. De Maisonneuve Ouest, Montréal, Québec",
+        "owner": "9369-5252 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "Montréal",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.4949062,
+                "lng": -73.5804318
+            }
+        ]
+    },
+    {
+        "business_id": "16060",
+        "name": "MAGIC IDEA (RESTAURANT)",
+        "address": "1675 Boul. De Maisonneuve Ouest, Montréal, Québec",
+        "owner": "9175-3624 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "Montréal",
+        "status": "Fermé changement d'exploitant",
+        "location": [
+            {
+                "lat": 45.4948606,
+                "lng": -73.5804119
+            }
+        ]
+    },
+    {
+        "business_id": "109117",
+        "name": "RESTAURANT MAGIC",
+        "address": "1675 Boul. De Maisonneuve Ouest, Montréal, Québec",
+        "owner": "9301-4728 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "Montréal",
+        "status": "Fermé changement d'exploitant",
+        "location": [
+            {
+                "lat": 45.4948606,
+                "lng": -73.5804119
+            }
+        ]
+    },
+    {
+        "business_id": "102520",
+        "name": "TEA LOUNGE AND RESTAURANT",
+        "address": "1675 Boul. De Maisonneuve Ouest, Montréal, Québec",
+        "owner": "7859147 CANADA LTD.",
+        "category": "Restaurant",
+        "ville": "Montréal",
+        "status": "Fermé changement d'exploitant",
+        "location": [
+            {
+                "lat": 45.4948606,
+                "lng": -73.5804119
+            }
+        ]
+    },
+    {
+        "business_id": "16227",
+        "name": "RESTAURANT CHEZ ENNIO",
+        "address": "1978 Boul. De Maisonneuve Ouest, Montréal, Québec",
+        "owner": "RICCI ENNIO",
+        "category": "Restaurant",
+        "ville": "Montréal",
+        "status": "Fermé changement d'exploitant",
+        "location": [
+            {
+                "lat": 45.4926709,
+                "lng": -73.5824829
+            }
+        ]
+    },
+    {
+        "business_id": "117347",
+        "name": "DOUBLE PIZZA",
+        "address": "1632 Boul. De Maisonneuve Ouest, Montréal, Québec",
+        "owner": "9374-3870 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "Montréal",
+        "status": "Fermé",
+        "location": [
+            {
+                "lat": 45.4951493,
+                "lng": -73.5795709
+            }
+        ]
+    },
+    {
+        "business_id": "4280",
+        "name": "BONJOUR SUPERMARCHE",
+        "address": "2070 Boul. De Maisonneuve Ouest, Local 6, Montréal, Québec",
+        "owner": "QUAN LINA, ZHU CHUNXIAO",
+        "category": "Épicerie avec préparation",
+        "ville": "Montréal",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.4922313,
+                "lng": -73.5829748
+            }
+        ]
+    },
+    {
+        "business_id": "114033",
+        "name": "FRESHII",
+        "address": "1102 Boul. De Maisonneuve Ouest, Montréal, Québec",
+        "owner": "9328-1913 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "Montréal",
+        "status": "Fermé changement d'exploitant",
+        "location": [
+            {
+                "lat": 45.50059299999999,
+                "lng": -73.574691
+            }
+        ]
+    },
+    {
+        "business_id": "114308",
+        "name": "NOTRE-BOEUF-DE-GRACE CENTREVILLE",
+        "address": "1388 Boul. De Maisonneuve Ouest, Montréal, Québec",
+        "owner": "9336-0337 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "Montréal",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.4975951,
+                "lng": -73.57762079999999
+            }
+        ]
+    },
+    {
+        "business_id": "122986",
+        "name": "CARIBBEAN FOOD FACTORY",
+        "address": "5311 Boul. De Maisonneuve Ouest, Local 101, Montréal, Québec",
+        "owner": "WILLIAMS LENVAL",
+        "category": "Restaurant",
+        "ville": "Montréal",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.472904,
+                "lng": -73.60643189999999
+            }
+        ]
+    },
+    {
+        "business_id": "115089",
+        "name": "MON CHICHA BISTRO",
+        "address": "1396 Boul. De Maisonneuve Ouest, Montréal, Québec",
+        "owner": "9336-3448 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "Montréal",
+        "status": "Fermé",
+        "location": [
+            {
+                "lat": 45.4974183,
+                "lng": -73.57779409999999
+            }
+        ]
+    },
+    {
+        "business_id": "105446",
+        "name": "OPERA CAFE (CAFEINE PLUS)",
+        "address": "888 Boul. De Maisonneuve Est, Local R23, Montréal, Québec",
+        "owner": "9271-7628 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "Montréal",
+        "status": "Fermé",
+        "location": [
+            {
+                "lat": 45.5165703,
+                "lng": -73.55916979999999
+            }
+        ]
+    },
+    {
+        "business_id": "111448",
+        "name": "RESTAURANT PHO MAISONNEUVE",
+        "address": "948 Boul. De Maisonneuve Est, Montréal, Québec",
+        "owner": "RESTAURANT PHO MAISONNEUVE S.E.N.C.",
+        "category": "Restaurant",
+        "ville": "Montréal",
+        "status": "Fermé changement d'exploitant",
+        "location": [
+            {
+                "lat": 45.51744619999999,
+                "lng": -73.5588779
+            }
+        ]
+    },
+    {
+        "business_id": "114532",
+        "name": "RESTAURANT PHO MAISONNEUVE",
+        "address": "948 Boul. De Maisonneuve Est, Montréal, Québec",
+        "owner": "THI MAI LE",
+        "category": "Restaurant",
+        "ville": "Montréal",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.51744619999999,
+                "lng": -73.5588779
+            }
+        ]
+    },
+    {
+        "business_id": "15569",
+        "name": "RESTAURANT PHO-MAISONNEUVE",
+        "address": "948 Boul. De Maisonneuve Est, Montréal, Québec",
+        "owner": "NGUYEN DAVID JUNIOR",
+        "category": "Restaurant",
+        "ville": "Montréal",
+        "status": "Fermé changement d'exploitant",
+        "location": [
+            {
+                "lat": 45.51744619999999,
+                "lng": -73.5588779
+            }
+        ]
+    },
+    {
+        "business_id": "115020",
+        "name": "CAFE EN COULEUR",
+        "address": "1212 Boul. De Maisonneuve Est, Montréal, Québec",
+        "owner": "9272-1836 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "Montréal",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.51918819999999,
+                "lng": -73.55742339999999
+            }
+        ]
+    },
+    {
+        "business_id": "103166",
+        "name": "TUTTI FRUTTI PLACE DUPUIS",
+        "address": "800 Boul. De Maisonneuve Est, Local R-18Z, Montréal, Québec",
+        "owner": "9250-3978 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "Montréal",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.5160422,
+                "lng": -73.559421
+            }
+        ]
+    },
+    {
+        "business_id": "106744",
+        "name": "LA BELLE PROVINCE",
+        "address": "1025 Rue du Marché-Central, Montréal, Québec",
+        "owner": "9217-8771 QUEBEC INC.",
+        "category": "Restaurant service rapide",
+        "ville": "Montréal",
+        "status": "Fermé",
+        "location": [
+            {
+                "lat": 45.5345385,
+                "lng": -73.6596261
+            }
+        ]
+    },
+    {
+        "business_id": "106146",
+        "name": "CULTURES ET THAI EXPRESS",
+        "address": "1023 Rue du Marché-Central, Montréal, Québec",
+        "owner": "8155364 CANADA INC.",
+        "category": "Restaurant",
+        "ville": "Montréal",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.5345387,
+                "lng": -73.6597567
+            }
+        ]
+    },
+    {
+        "business_id": "13832",
+        "name": "CASEY'S RESTO BAR",
+        "address": "1031 Rue du Marché-Central, Montréal, Québec",
+        "owner": "9215-2917 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "Montréal",
+        "status": "Fermé",
+        "location": [
+            {
+                "lat": 45.5343817,
+                "lng": -73.6590889
+            }
+        ]
+    },
+    {
+        "business_id": "9777",
+        "name": "REST.MARCHE CENTRAL BOGATY INC.(BISTRO DU MARCHE)",
+        "address": "905 Rue du Marché-Central, Montréal, Québec",
+        "owner": "RESTAURANT MARCHE CENTRAL BOGATY INC.",
+        "category": "Restaurant",
+        "ville": "Montréal",
+        "status": "Fermé",
+        "location": [
+            {
+                "lat": 45.53341469999999,
+                "lng": -73.6492913
+            }
+        ]
+    },
+    {
+        "business_id": "9564",
+        "name": "ZOUKI'S",
+        "address": "1027 Rue du Marché-Central, Montréal, Québec",
+        "owner": "LES ENTREPRISES ZOUKI'S INC.",
+        "category": "Restaurant service rapide",
+        "ville": "Montréal",
+        "status": "Fermé changement d'exploitant",
+        "location": [
+            {
+                "lat": 45.5344864,
+                "lng": -73.659487
+            }
+        ]
+    },
+    {
+        "business_id": "5098",
+        "name": "BOUCHERIE DU MARCHE",
+        "address": "224 Pl. du Marché-du-Nord, Montréal, Québec",
+        "owner": "9021-7597 QUEBEC INC.",
+        "category": "Boucherie-épicerie",
+        "ville": "Montréal",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.5355634,
+                "lng": -73.614284
+            }
+        ]
+    },
+    {
+        "business_id": "12363",
+        "name": "BOUCHER AN-NASR",
+        "address": "250 Pl. du Marché-du-Nord, Montréal, Québec",
+        "owner": "AMINE ABDELKHALEK",
+        "category": "Boucherie-épicerie",
+        "ville": "Montréal",
+        "status": "Fermé",
+        "location": [
+            {
+                "lat": 45.5358767,
+                "lng": -73.6140997
+            }
+        ]
+    },
+    {
+        "business_id": "19622",
+        "name": "CHEZ NINO",
+        "address": "192 Pl. du Marché-du-Nord, Montréal, Québec",
+        "owner": "GESTION DE LA BRUERE INC.",
+        "category": "Épicerie avec préparation",
+        "ville": "Montréal",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.535345,
+                "lng": -73.61454499999999
+            }
+        ]
+    },
+    {
+        "business_id": "19615",
+        "name": "BOUCHERS CAPITOL",
+        "address": "158 Pl. du Marché-du-Nord, Montréal, Québec",
+        "owner": "BOUCHERS CAPITOL (MONTREAL) LTEE",
+        "category": "Boucherie-épicerie",
+        "ville": "Montréal",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.535007,
+                "lng": -73.614873
+            }
+        ]
+    },
+    {
+        "business_id": "105727",
+        "name": "LEOPOLDO FRUITS ET LEGUMES",
+        "address": "182 Pl. du Marché-du-Nord, Montréal, Québec",
+        "owner": "9275-5644 QUEBEC INC.",
+        "category": "Kiosque",
+        "ville": "Montréal",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.5353061,
+                "lng": -73.61459239999999
+            }
+        ]
+    },
+    {
+        "business_id": "19618",
+        "name": "MARCHE TANIA",
+        "address": "166 Pl. du Marché-du-Nord, Montréal, Québec",
+        "owner": "9123-9699 QUEBEC INC.",
+        "category": "Épicerie avec préparation",
+        "ville": "Montréal",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.535119,
+                "lng": -73.614752
+            }
+        ]
+    },
+    {
+        "business_id": "107906",
+        "name": "CAFE RESTAURANT ARABELLA",
+        "address": "178 Pl. du Marché-du-Nord, Montréal, Québec",
+        "owner": "CAFE RESTAURANT ARABELLA INC.",
+        "category": "Restaurant",
+        "ville": "Montréal",
+        "status": "Fermé",
+        "location": [
+            {
+                "lat": 45.53524360000001,
+                "lng": -73.6146815
+            }
+        ]
+    },
+    {
+        "business_id": "103476",
+        "name": "LA STELLINA",
+        "address": "178 Pl. du Marché-du-Nord, Montréal, Québec",
+        "owner": "CAFE RESTAURANT ESSIFI INC.",
+        "category": "Restaurant",
+        "ville": "Montréal",
+        "status": "Fermé changement d'exploitant",
+        "location": [
+            {
+                "lat": 45.53524360000001,
+                "lng": -73.6146815
+            }
+        ]
+    },
+    {
+        "business_id": "19623",
+        "name": "ULTRAFRUITS",
+        "address": "195 Pl. du Marché-du-Nord, Montréal, Québec",
+        "owner": "ANTONIO IASENZANIRO",
+        "category": "Épicerie avec préparation",
+        "ville": "Montréal",
+        "status": "Fermé",
+        "location": [
+            {
+                "lat": 45.5359914,
+                "lng": -73.6160452
+            }
+        ]
+    },
+    {
+        "business_id": "112216",
+        "name": "ALIMENTATION GUSTA",
+        "address": "191 Pl. du Marché-du-Nord, Montréal, Québec",
+        "owner": "ALIMENTATION GUSTA INC.",
+        "category": "Produits à base de protéines végétales",
+        "ville": "Montréal",
+        "status": "Sous inspection fédérale",
+        "location": [
+            {
+                "lat": 45.53608089999999,
+                "lng": -73.6161819
+            }
+        ]
+    },
+    {
+        "business_id": "67196",
+        "name": "PRODUITS ALIMENTAIRES ORIENTAL ENR",
+        "address": "6909 Rue Marconi, Montréal, Québec",
+        "owner": "124643 CANADA INC.",
+        "category": "Produits à base de protéines végétales",
+        "ville": "Montréal",
+        "status": "Fermé changement d'exploitant",
+        "location": [
+            {
+                "lat": 45.5309271,
+                "lng": -73.6170444
+            }
+        ]
+    },
+    {
+        "business_id": "104634",
+        "name": "BOUCHERIE CHARCUTERIE BENITO",
+        "address": "11515 4e Av., Montréal, Québec",
+        "owner": "9056-2307 QUEBEC INC.",
+        "category": "Charcuterie",
+        "ville": "Montréal",
+        "status": "Fermé changement d'exploitant",
+        "location": [
+            {
+                "lat": 45.6194244,
+                "lng": -73.59837290000002
+            }
+        ]
+    },
+    {
+        "business_id": "67421",
+        "name": "BOULANGERIE BON MARCHE CANTOR",
+        "address": "8575 8e Av., Montréal, Québec",
+        "owner": "2920409 CANADA INC.",
+        "category": "Pâtisserie",
+        "ville": "Montréal",
+        "status": "Fermé changement d'exploitant",
+        "location": [
+            {
+                "lat": 45.5658187,
+                "lng": -73.61972109999999
+            }
+        ]
+    },
+    {
+        "business_id": "120469",
+        "name": "BOULANGERIE ET ALIMENTS CANKO",
+        "address": "8575 8e Av., Montréal, Québec",
+        "owner": "11163337 CANADA INC.",
+        "category": "Pâtisserie",
+        "ville": "Montréal",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.5658187,
+                "lng": -73.61972109999999
+            }
+        ]
+    },
+    {
+        "business_id": "105864",
+        "name": "LES ENTREPRISES MACHADO",
+        "address": "8695 10e Av., Montréal, Québec",
+        "owner": "9204-5236 QUEBEC INC.",
+        "category": "Local de préparation",
+        "ville": "Montréal",
+        "status": "Fermé",
+        "location": [
+            {
+                "lat": 45.5680726,
+                "lng": -73.62056419999999
+            }
+        ]
+    },
+    {
+        "business_id": "110306",
+        "name": "LES VIANDES MTL QC",
+        "address": "8041 16e Av., Montréal, Québec",
+        "owner": "CHERIFI & FRERES INC.",
+        "category": "Boucherie",
+        "ville": "Montréal",
+        "status": "Fermé",
+        "location": [
+            {
+                "lat": 45.567221,
+                "lng": -73.6059791
+            }
+        ]
+    },
+    {
+        "business_id": "67562",
+        "name": "S.T.R. VIANDES EN GROS",
+        "address": "7401 18e Av., Montréal, Québec",
+        "owner": "9108-7692 QUEBEC INC.",
+        "category": "Charcuterie",
+        "ville": "Montréal",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.5654982,
+                "lng": -73.5969422
+            }
+        ]
+    },
+    {
+        "business_id": "111654",
+        "name": "BOUCHERIE AL-KHAIR III",
+        "address": "8200 19e Av., Montréal, Québec",
+        "owner": "9319-5881 QUEBEC INC.",
+        "category": "Boucherie-épicerie",
+        "ville": "Montréal",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.5702584,
+                "lng": -73.6063377
+            }
+        ]
+    },
+    {
+        "business_id": "8164",
+        "name": "SAMI FRUITS",
+        "address": "8200 19e Av., Montréal, Québec",
+        "owner": "LA MAISON SAMI T.A. FRUITS INC.",
+        "category": "Épicerie avec préparation",
+        "ville": "Montréal",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.5702584,
+                "lng": -73.6063377
+            }
+        ]
+    },
+    {
+        "business_id": "99029",
+        "name": "BOUCHERIE NAPPI",
+        "address": "9690 4e Rue, Rivière-des-Prairies, Québec",
+        "owner": "BOUCHERIE NAPPI INC.",
+        "category": "Boucherie-épicerie",
+        "ville": "Rivière-des-Prairies",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.6552156,
+                "lng": -73.5664945
+            }
+        ]
+    },
+    {
+        "business_id": "10453",
+        "name": "MARCHE LES BEAUX TEMPS",
+        "address": "9630 4e Rue, Rivière-des-Prairies, Québec",
+        "owner": "MARCHE LES BEAUX TEMPS INC.",
+        "category": "Épicerie avec préparation",
+        "ville": "Rivière-des-Prairies",
+        "status": "Fermé changement d'exploitant",
+        "location": [
+            {
+                "lat": 45.6549445,
+                "lng": -73.567281
+            }
+        ]
+    },
+    {
+        "business_id": "109276",
+        "name": "MIKASA SUSHI BAR",
+        "address": "9835 Boul. de l'Acadie, Montréal, Québec",
+        "owner": "9082-1885 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "Montréal",
+        "status": "Fermé",
+        "location": [
+            {
+                "lat": 45.5358227,
+                "lng": -73.6651802
+            }
+        ]
+    },
+    {
+        "business_id": "103543",
+        "name": "RESTAURANT FOO LAM",
+        "address": "9394 Boul. de l'Acadie, Local 201, Montréal, Québec",
+        "owner": "9260-0220 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "Montréal",
+        "status": "Fermé changement d'exploitant",
+        "location": [
+            {
+                "lat": 45.5334771,
+                "lng": -73.6588228
+            }
+        ]
+    },
+    {
+        "business_id": "111536",
+        "name": "RESTAURANT AMIR",
+        "address": "9490 Boul. de l'Acadie, Montréal, Québec",
+        "owner": "9319-2383 QUEBEC INC.",
+        "category": "Restaurant",
+        "ville": "Montréal",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.5340959,
+                "lng": -73.6607241
+            }
+        ]
+    },
+    {
+        "business_id": "103229",
+        "name": "NEW MONDO CAFE",
+        "address": "9258 Boul. de l'Acadie, Montréal, Québec",
+        "owner": "9252-9429 QUEBEC INC.",
+        "category": "Casse-croûte",
+        "ville": "Montréal",
+        "status": "Ouvert",
+        "location": [
+            {
+                "lat": 45.5326595,
+                "lng": -73.6561897
+            }
+        ]
+    }
+]

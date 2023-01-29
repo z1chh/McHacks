@@ -31,11 +31,85 @@
   flex-direction: row;
 }
 
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.searchBar {
+  background-color: rgba(99, 99, 99, 0.25);
+  border: 1px solid transparent;
+  height: 3rem;
+  width: 17rem;
+  padding-left: 20px;
+  color: white;
+
+  font-size: x-large;
+  border-radius: 5px;
+}
+
+.submitReport {
+  border: transparent;
+  font-size: x-large;
+  height: 3rem;
+  width: 12rem;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background-color: rgb(188, 102, 253);
+  color: white;
+}
+
+.submitReport:hover {
+  background-color: rgb(117, 63, 157);
+  cursor: pointer;
+}
+
 .modal {
   flex-grow: 1;
+  color: white;
   width: 25%;
   display: none;
-  background-color: coral;
+  background-color: rgb(107, 84, 255);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.styled-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  width: 100%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.styled-table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+}
+.styled-table th,
+.styled-table td {
+    padding: 3px 15px;
+}
+
+.styled-table td p{
+  overflow-wrap: break-word;
+}
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  color: black;
+  background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+  /* border-bottom: 2px solid #009879; */
+} 
+.styled-table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
 }
 
 .info-header {
@@ -56,6 +130,20 @@
   flex-grow: 3;
   height: 80vh;
   width: 75%;
+}
+
+.close {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-weight: 800;
+  font-size: x-large;
+  float: right;
+}
+
+.close:hover {
+  color: #009879;
 }
 
 #map {

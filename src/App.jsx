@@ -1,5 +1,11 @@
 import { Loader } from '@googlemaps/js-api-loader';
 import MarkerClusterer from '@google/markerclustererplus';
+import jsonData1 from './assets/location_array.json';
+// import jsonData2 from './assets/test_viol_data.json';
+
+const allPlaces = JSON.parse(JSON.stringify(jsonData1));
+console.log(allPlaces.length);
+// const allViolations = JSON.parse(JSON.stringify(jsonData2));
 
 const apiOptions = {
   apiKey: "AIzaSyC1GMfeCxwUTTm_yWoSFEpSBPrpnIu2ZYo"
@@ -143,6 +149,8 @@ function displayMap() {
     center: { lat: 45.508888, lng: -73.561668 },
     zoom: 14,
     minZoom: 13,
+    streetViewControl:false,
+    fullscreenControl:false,
     // mapTypeId: google.maps.MapTypeId.ROADMAP,
     styles: myStyles
   };
@@ -154,23 +162,14 @@ function addMarkers(map) {
   // Here we would import markers from csv file, each one would 
   // be a json object
 
-  // const places = [
-  //   {
-  //     name: "Sophie Sucree",
-  //     desc: "Vegan bakery on St. Laurent",
-  //     location: {
-  //       lat: 45.51530637108047,
-  //       lng: -73.57575248002632
-  //     }
-  //   }
-  // ]
-
   const markers = [];
-  for (const place in places) {
-    console.log(place);
+  for (const place in allPlaces) {
+    const image =
+    "/img/newMarker.png";
     const markerOptions = {
       map: map,
-      position: places[place].location,
+      position: allPlaces[place].location[0],
+      icon: image
     }
     const marker = new google.maps.Marker(markerOptions);
     
@@ -185,36 +184,70 @@ function clusterMarkers(map, markers) {
 }
 
 function addPanToMarker(map, markers) {
-  let circle;
+  // let circle;
   markers.map(marker => {
     marker.addListener('click', event => {
       // On Marker click, open modal window with json information
       // from object, pertaining to address, etc
       var placeToOutput;
-      for(const place in places){
-        console.log(places[place].location.lat);
-        console.log(" and "+event.latLng);
-        if(places[place].location.lat === event.latLng.lat() && places[place].location.lng === event.latLng.lng()){
-          placeToOutput = places[place];
+      
+      for(const place in allPlaces){
+
+        if(allPlaces[place].location[0].lat === event.latLng.lat() && allPlaces[place].location[0].lng === event.latLng.lng()){
+          placeToOutput = allPlaces[place];
           break;
         }
       }
     
       // Here add another string with all the violations information
-
-      let titleString = "<p>"+placeToOutput.name+"<br>"+placeToOutput.desc+"</p>";
+      let titleString = `
+      <table class="styled-table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th><p>`+placeToOutput.name+`</p></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Address</td>
+                <td><p>`+placeToOutput.address+`</p></td>
+            </tr>
+            <tr>
+                <td>Town</td>
+                <td><p>`+placeToOutput.ville+`</p></td>
+            </tr>
+            <tr>
+                <td>Owner</td>
+                <td><p>`+placeToOutput.owner+`</p></td>
+            </tr>
+            <tr>
+                <td>Category</td>
+                <td><p>`+placeToOutput.category+`</p></td>
+            </tr>
+            <tr>
+                <td>Status</td>
+                <td><p>`+placeToOutput.status+`</p></td>
+            </tr>
+            
+        </tbody>
+      </table>
+      `;
+      // let titleString = "<p>"+placeToOutput.name+"<br>"+placeToOutput.address+"</p>";
+      let modalContentDiv = document.getElementsByClassName("modal-content")[0];
       let modalDiv = document.getElementsByClassName("modal")[0];
-      modalDiv.style.display = "flex";
+      
+      modalDiv.style.display = "block";
 
-      modalDiv.innerHTML = titleString;
+      modalContentDiv.innerHTML = titleString;
 
       const location = { lat: event.latLng.lat(), lng: event.latLng.lng() };
 
       map.panTo(location);
-      if (circle) {
-        circle.setMap(null);
-      }
-      circle = drawCircle(map, location);
+      // if (circle) {
+      //   circle.setMap(null);
+      // }
+      // circle = drawCircle(map, location);
     });
   });
 }
@@ -231,7 +264,11 @@ function drawCircle(map, location) {
   const circle = new google.maps.Circle(circleOptions);
   return circle;
 }
-// Modal div should have an x button to close it, 
+
+function closeModal(){
+  document.getElementsByClassName("modal")[0].style.display = "none";
+}
+// Modal div should have an x button to close it
 // a section for the title description, and a section for the violations 
 export default function App() {
     return (
@@ -243,8 +280,9 @@ export default function App() {
             <h1>Placeholder Name</h1>
             <p>Select a marker to see their health violations</p>
           </div>
-          <div>
-            <input type="button" value="New Report"/>
+          <div className='flex-row'>
+            <input type="text" className="searchBar" placeholder="Search"/>
+            <input type="button" className="submitReport" value="New Report"/>
           </div>
         </div>
       </div>
@@ -253,8 +291,19 @@ export default function App() {
           <div id="map"></div>
         </div>
         <div className="modal">
-          <div className="description"></div>
-          <div className="violations"></div>        
+          <input
+                type="button"
+                className="close"
+                data-dismiss="modal"
+                aria-label="Close"
+                onClick={closeModal}
+                value="&#x2715;"
+          />
+          <div className="modal-content">
+            
+            <div className="description"></div>
+            <div className="violations"></div>
+          </div>      
         </div>
       </div>
     </div>

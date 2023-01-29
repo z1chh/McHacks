@@ -1,0 +1,28 @@
+[
+    {
+        "business_id": 23,
+        "name": "Sophie Sucree",
+        "address": "123 Main St.",
+        "owner": "John Smith",
+        "category": "Bakery",
+        "ville": "Outremont",
+        "status": "Open",
+        "location": {
+        "lat": 45.51530637108047,
+        "lng": -73.57575248002632
+        }
+    },
+    {
+        "business_id": 6,
+        "name": "Sapa",
+        "address": "456 St. Laurent",
+        "owner": "Adam Appleseed",
+        "category": "Sandwhiches",
+        "ville": "Plateau",
+        "status": "Closed",
+        "location": {
+        "lat": 45.53470852853187,
+        "lng": -73.61425022688806
+        }
+    }
+]
