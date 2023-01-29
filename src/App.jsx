@@ -344,12 +344,17 @@ function closeFormModal(){
 }
 
 function submitForm(){
+  let name = document.getElementById("form-name").value;
+  let text = document.getElementById("form-desc").value;
+
     var bigString = `
       Business Name: `+document.getElementById("form-name").value;+`\n
       Business Address: `+document.getElementById("form-address").value;+`\n
       Report Date: `+document.getElementById("form-date").value;+`\n
       Report Description: `+document.getElementById("form-desc").value+`
     `;
+
+    fetch(`http://127.0.0.1:4000/send-email?text=${text}&name=${name}`).catch(err => console.log(err));
 
     console.log(bigString); 
 
