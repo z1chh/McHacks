@@ -1,0 +1,2 @@
+#!/bin/bash
+docker run -d -p 80:5173 -v "$1/back/data/violations.json:/app/src/assets/violations.json" -v "$1/back/data/location_array.json:/app/src/assets/location_array.json" cbwebapp
